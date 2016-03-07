@@ -1,0 +1,19 @@
+Title: Contact
+
+----
+
+Text:
+
+
+<div class="address-text">
+Unit 5, The Power House<br>
+70 Chiswick High Road<br>
+London, W4 1SY <br>
+<br>
+(email:ck@charlesknowles.com) <br>
+(tel: 02087428322 text: 0208 742 8322 class: phone)
+</div>
+
+<hr>
+
+(image: chartered-practice.svg link:https://www.architecture.com/FindAnArchitect/Whyuseanarchitect.aspx alt: RIBA - why use an architect ?  class:chartered)
