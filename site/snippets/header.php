@@ -12,18 +12,21 @@
   <?php echo css('assets/css/style.css') ?>
 </head>
 <body>
-    <nav>
-      <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  <header >
+
+<div class="container">
+<header>
     <div>
       <img class="logo fadeInDown" src="<?php echo url('assets/images/CKD.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
       <h2 class="fadeIn"><?php echo kirbytextSans($site->title()) ?></h2>
       <h3 class="fadeIn sub-heading"><?php echo kirbytextSans($site->description()) ?></h3>
+       <nav class="main-nav">
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
  </div>
-</header>
+ </header>
+
 

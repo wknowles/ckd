@@ -31,13 +31,13 @@ body {
   }
 
 .logo {
-  height: 35vh;
+  height: 20vh;
 }
 
 header {
   padding: 20px 0px;
   text-align: center;
-   height:70vh;
+  height:100vh;
   background: url("../images/hero1.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -63,6 +63,10 @@ header {
 padding-bottom: 1rem;
 background-color: $white;
 border-top: 1px dotted $grey;
+}
+
+.floatright {
+  float: right;
 }
 
 .about-content {
@@ -99,6 +103,7 @@ padding: 30px 0;
 }
 
 /* clearfix */
+
 .grid:after {
   content: '';
   display: block;
@@ -161,20 +166,23 @@ padding: 30px 0;
     color: $blue;
 }
 
+/* -- Contact --------------------------------------------------------------------------------------------------------------- */
+
 .contact{
-    background: url(../images/office.jpg) no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  height: 100vh;
+  background: url(../images/office.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .address{
-  padding: 200px 0;
   text-align: center;
   color: $white;
-  max-width: 400px;
-  margin: 0 auto;
 }
 
 .address-text{
@@ -198,16 +206,12 @@ hr {
     border-top: 1px solid $white;
 }
 
-.floatright {
-  float: right;
-}
-
 a[href^="tel:"]:before {
   content: "\260e";
   margin-right: 0.5em;
 }
 
-/* -- Gallery ------------------------------------- */
+/* -- Gallery --------------------------------------------------------------------------------------------------------------- */
 
 .gallery-cell{
   margin-right: 10px;
@@ -220,12 +224,12 @@ a[href^="tel:"]:before {
     line-height: 1.6em;
 }
 
-/*  media queries */
+/* -- Media Queries -------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 600px) {
-  body {
+  .container {
     background: $black;
-    padding: 3em;
+    padding: 1.6em;
   }
 
   .about{
