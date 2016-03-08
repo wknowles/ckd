@@ -9,7 +9,6 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
   <link rel="stylesheet" href="https://npmcdn.com/flickity@1.1/dist/flickity.min.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-  <?php echo css('assets/css/typebase.css') ?>
   <?php echo css('assets/css/style.css') ?>
 </head>
 <body>

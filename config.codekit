@@ -2,15 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19102",
 "files": {
-	"\/assets\/_scss\/typebase.scss": {
+	"\/assets\/_scss\/_animations.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/typebase.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/typebase.css",
+		"inputAbbreviatedPath": "\/assets\/_scss\/_animations.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_animations.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -18,20 +18,91 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/component.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/assets\/_scss\/_nav.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/component.css",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/assets\/_scss\/_nav.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_nav.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/assets\/css\/main.css": {
+	"\/assets\/_scss\/_rest.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/_rest.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_rest.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/_typebase.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/_typebase.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_typebase.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/_variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/_variables.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/style.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/old_style.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/main.css",
+		"inputAbbreviatedPath": "\/assets\/css\/old_style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -47,18 +118,9 @@
 		},
 	"\/assets\/css\/style.css": {
 		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/assets\/css\/typebase.css": {
-		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/typebase.css",
+		"inputAbbreviatedPath": "\/assets\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3081,27 +3143,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/license.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/license.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/license.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
 		},
 	"\/panel\/app\/bootstrap.php": {
 		"fileType": 8192,
@@ -6685,15 +6726,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/site\/accounts\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/site\/accounts\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/site\/blueprints\/default.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6912,6 +6944,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/01-134a214b8a96a77d2517d22ac83ccda6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22734,
+		"inputAbbreviatedPath": "\/thumbs\/01-134a214b8a96a77d2517d22ac83ccda6.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/01-134a214b8a96a77d2517d22ac83ccda6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/01-a831935062b1668a214ad3147160b884.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6923,13 +6966,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/01-d520d4287967859bac86d4420ddb0a8a.jpg": {
+	"\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-26ff2203745764fa9fc132dcc98b9ca3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22734,
-		"inputAbbreviatedPath": "\/thumbs\/01-d520d4287967859bac86d4420ddb0a8a.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/01-d520d4287967859bac86d4420ddb0a8a.jpg",
+		"initialSize": 22402,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-26ff2203745764fa9fc132dcc98b9ca3.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-26ff2203745764fa9fc132dcc98b9ca3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6945,17 +6988,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-98c6372e30d0e6dcf00ae8958ee497ff.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22402,
-		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-98c6372e30d0e6dcf00ae8958ee497ff.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-98c6372e30d0e6dcf00ae8958ee497ff.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-c38ac440546575c69e74ce615590a745.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6963,6 +6995,17 @@
 		"initialSize": 14983,
 		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-c38ac440546575c69e74ce615590a745.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-c38ac440546575c69e74ce615590a745.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-dogs-home-head-offices-01-149a74dfb07c315336569366705d45f0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29219,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-149a74dfb07c315336569366705d45f0.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-149a74dfb07c315336569366705d45f0.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6978,17 +7021,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/battersea-dogs-home-head-offices-01-3a428c0239427702044729c3f1ca6fcc.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29219,
-		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-3a428c0239427702044729c3f1ca6fcc.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-3a428c0239427702044729c3f1ca6fcc.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/thumbs\/battersea-dogs-home-head-offices-01-bd702050dac66471ef90b0a732a5ffc9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7000,17 +7032,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/battersea-old-windsor-clinic-01-2ff4fb88e5647297d466fdb589b92487.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 36279,
-		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-2ff4fb88e5647297d466fdb589b92487.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-2ff4fb88e5647297d466fdb589b92487.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/thumbs\/battersea-old-windsor-clinic-01-3707b8b1d6a29aae6d52d2c3b2718eee.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7018,6 +7039,17 @@
 		"initialSize": 24045,
 		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-3707b8b1d6a29aae6d52d2c3b2718eee.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-3707b8b1d6a29aae6d52d2c3b2718eee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-old-windsor-clinic-01-6f1e97f049e82ed333ccf748af2656e6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36279,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-6f1e97f049e82ed333ccf748af2656e6.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-6f1e97f049e82ed333ccf748af2656e6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7044,6 +7076,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/battersea-old-windsor-kennels-01-531eab487fcef1b29231bd457ce94c2d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28813,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-531eab487fcef1b29231bd457ce94c2d.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-531eab487fcef1b29231bd457ce94c2d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/battersea-old-windsor-kennels-01-5e92037d699fe194c3d5bd82e783a60c.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7055,13 +7098,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/battersea-old-windsor-kennels-01-e3c2cd868899dda3748a65bd51dc175f.jpg": {
+	"\/thumbs\/battersea-old-windsor-new-cattery-01-352225e3d3db20ad84980dffb1c0859f.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28813,
-		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-e3c2cd868899dda3748a65bd51dc175f.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-e3c2cd868899dda3748a65bd51dc175f.jpg",
+		"initialSize": 53709,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-352225e3d3db20ad84980dffb1c0859f.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-352225e3d3db20ad84980dffb1c0859f.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7088,28 +7131,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/battersea-old-windsor-new-cattery-01-c0050aed9c906b2acfee5ce44abcf044.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 53709,
-		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-c0050aed9c906b2acfee5ce44abcf044.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-c0050aed9c906b2acfee5ce44abcf044.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/thumbs\/battersea-old-windsor-reception-building-01-811ed7d514709b80861c61ea1bfa64c9.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35156,
-		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-reception-building-01-811ed7d514709b80861c61ea1bfa64c9.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-reception-building-01-811ed7d514709b80861c61ea1bfa64c9.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/thumbs\/battersea-old-windsor-reception-building-01-af35cedab286819bc76e2e6d7aee9967.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7132,13 +7153,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/bbc-listening-project-water-pod-01-647bc7d9ef6e89304d6551ef13823888.jpg": {
+	"\/thumbs\/battersea-old-windsor-reception-building-01-fc6563bb56d153d45745c65f90528c70.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35156,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-reception-building-01-fc6563bb56d153d45745c65f90528c70.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-reception-building-01-fc6563bb56d153d45745c65f90528c70.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/bbc-listening-project-water-pod-01-744d346a83ca6ace803cd49933a7e38d.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 16002,
-		"inputAbbreviatedPath": "\/thumbs\/bbc-listening-project-water-pod-01-647bc7d9ef6e89304d6551ef13823888.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/bbc-listening-project-water-pod-01-647bc7d9ef6e89304d6551ef13823888.jpg",
+		"inputAbbreviatedPath": "\/thumbs\/bbc-listening-project-water-pod-01-744d346a83ca6ace803cd49933a7e38d.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bbc-listening-project-water-pod-01-744d346a83ca6ace803cd49933a7e38d.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7198,17 +7230,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/house-in-west-london-conservation-area-01-7df67942eed1d2b21d49bc42fa93e9d6.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23671,
-		"inputAbbreviatedPath": "\/thumbs\/house-in-west-london-conservation-area-01-7df67942eed1d2b21d49bc42fa93e9d6.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/house-in-west-london-conservation-area-01-7df67942eed1d2b21d49bc42fa93e9d6.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/thumbs\/house-in-west-london-conservation-area-01-8da0b90444617b4879f69268c877c46b.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7220,13 +7241,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/lutyens-inspired-new-house-in-richmond-01-0ed5728b5d6501fd4c38a848817f4962.jpg": {
+	"\/thumbs\/house-in-west-london-conservation-area-01-aa06b566f89775ea8bd8082dd0bb5bb8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23671,
+		"inputAbbreviatedPath": "\/thumbs\/house-in-west-london-conservation-area-01-aa06b566f89775ea8bd8082dd0bb5bb8.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/house-in-west-london-conservation-area-01-aa06b566f89775ea8bd8082dd0bb5bb8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/lutyens-inspired-new-house-in-richmond-01-0153dcd46d4b0921bec567987bc11260.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 25587,
-		"inputAbbreviatedPath": "\/thumbs\/lutyens-inspired-new-house-in-richmond-01-0ed5728b5d6501fd4c38a848817f4962.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/lutyens-inspired-new-house-in-richmond-01-0ed5728b5d6501fd4c38a848817f4962.jpg",
+		"inputAbbreviatedPath": "\/thumbs\/lutyens-inspired-new-house-in-richmond-01-0153dcd46d4b0921bec567987bc11260.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/lutyens-inspired-new-house-in-richmond-01-0153dcd46d4b0921bec567987bc11260.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7264,13 +7296,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/merchant-bank-in-central-london-01-259e87494e147a7d5cbb667af19efc0c.jpg": {
+	"\/thumbs\/merchant-bank-in-central-london-01-4b50d8a74c9d6bc86552c8b21600cab7.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 36608,
-		"inputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-259e87494e147a7d5cbb667af19efc0c.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-259e87494e147a7d5cbb667af19efc0c.jpg",
+		"inputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-4b50d8a74c9d6bc86552c8b21600cab7.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-4b50d8a74c9d6bc86552c8b21600cab7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7282,6 +7314,17 @@
 		"initialSize": 24031,
 		"inputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-6ca12dbc64ea8278008b2a1f612ed1f2.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-6ca12dbc64ea8278008b2a1f612ed1f2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/new-home-tunbridge-wells-01-62ce7e4a63d5373a8df0853d8f2ca4d0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33596,
+		"inputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-62ce7e4a63d5373a8df0853d8f2ca4d0.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-62ce7e4a63d5373a8df0853d8f2ca4d0.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7308,28 +7351,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/new-home-tunbridge-wells-01-fc28eee032c2a91ac4e5d75036fa328a.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33596,
-		"inputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-fc28eee032c2a91ac4e5d75036fa328a.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-fc28eee032c2a91ac4e5d75036fa328a.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/thumbs\/new-house-in-somerset-01-3210cd908ce834eb67dd9d263d616aab.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17570,
-		"inputAbbreviatedPath": "\/thumbs\/new-house-in-somerset-01-3210cd908ce834eb67dd9d263d616aab.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/new-house-in-somerset-01-3210cd908ce834eb67dd9d263d616aab.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/thumbs\/new-house-in-somerset-01-54770a6f3244c8a226aed78e50f44994.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7352,6 +7373,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/new-house-in-somerset-01-b74381fa9786c4a4536f430e75460a96.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17570,
+		"inputAbbreviatedPath": "\/thumbs\/new-house-in-somerset-01-b74381fa9786c4a4536f430e75460a96.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/new-house-in-somerset-01-b74381fa9786c4a4536f430e75460a96.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/private-bank-in-central-london-01-1a65c8e3c695de0a9acb972be4072b5e.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22986,
+		"inputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-1a65c8e3c695de0a9acb972be4072b5e.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-1a65c8e3c695de0a9acb972be4072b5e.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/private-bank-in-central-london-01-73334d3f67d593362f3cc76d5a393039.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7359,17 +7402,6 @@
 		"initialSize": 14892,
 		"inputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-73334d3f67d593362f3cc76d5a393039.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-73334d3f67d593362f3cc76d5a393039.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/thumbs\/private-bank-in-central-london-01-786e91d50177fbff867847ef5d030df7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22986,
-		"inputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-786e91d50177fbff867847ef5d030df7.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-786e91d50177fbff867847ef5d030df7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7385,6 +7417,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/rural-planning-project-01-0df19c0ccc4cace2740a4f3c239ee6a1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25836,
+		"inputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-0df19c0ccc4cace2740a4f3c239ee6a1.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-0df19c0ccc4cace2740a4f3c239ee6a1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/rural-planning-project-01-1fa2bd4bf82ba59fe39182e2cb41e54e.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7392,17 +7435,6 @@
 		"initialSize": 25836,
 		"inputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-1fa2bd4bf82ba59fe39182e2cb41e54e.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-1fa2bd4bf82ba59fe39182e2cb41e54e.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/thumbs\/rural-planning-project-01-8eb171a1a90cda98c01714ac072704d2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25836,
-		"inputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-8eb171a1a90cda98c01714ac072704d2.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-8eb171a1a90cda98c01714ac072704d2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7429,13 +7461,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/south-irel-1-a343cf1bae197412f1e0320fe26f9764.jpg": {
+	"\/thumbs\/south-irel-1-7cc7de0b5fcf0d3fb558b99a4a212878.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 20731,
-		"inputAbbreviatedPath": "\/thumbs\/south-irel-1-a343cf1bae197412f1e0320fe26f9764.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/south-irel-1-a343cf1bae197412f1e0320fe26f9764.jpg",
+		"inputAbbreviatedPath": "\/thumbs\/south-irel-1-7cc7de0b5fcf0d3fb558b99a4a212878.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/south-irel-1-7cc7de0b5fcf0d3fb558b99a4a212878.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7473,13 +7505,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/spitfire-competition-01-b5243437f81d468da2da404d1a96a222.jpg": {
+	"\/thumbs\/spitfire-competition-01-b0ceff5a3eb44e70d065ee03900f033d.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 10512,
-		"inputAbbreviatedPath": "\/thumbs\/spitfire-competition-01-b5243437f81d468da2da404d1a96a222.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/spitfire-competition-01-b5243437f81d468da2da404d1a96a222.jpg",
+		"inputAbbreviatedPath": "\/thumbs\/spitfire-competition-01-b0ceff5a3eb44e70d065ee03900f033d.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/spitfire-competition-01-b0ceff5a3eb44e70d065ee03900f033d.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7495,13 +7527,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/villa-in-the-west-indies-01-788b830530c168b3483a25eb2487fb12.jpg": {
+	"\/thumbs\/villa-in-the-west-indies-01-5b0b7eded44ab83d8d1a6bd1fd891aff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 31717,
-		"inputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-788b830530c168b3483a25eb2487fb12.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-788b830530c168b3483a25eb2487fb12.jpg",
+		"inputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-5b0b7eded44ab83d8d1a6bd1fd891aff.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-5b0b7eded44ab83d8d1a6bd1fd891aff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7528,17 +7560,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/west-indies-courtyard-house-01-9dc4586c0973f7f25879839cae770b02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23429,
-		"inputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-9dc4586c0973f7f25879839cae770b02.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-9dc4586c0973f7f25879839cae770b02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/thumbs\/west-indies-courtyard-house-01-b2171b5cb5a7b9e720d7422fd00d4d77.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7546,6 +7567,17 @@
 		"initialSize": 14967,
 		"inputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-b2171b5cb5a7b9e720d7422fd00d4d77.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-b2171b5cb5a7b9e720d7422fd00d4d77.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/west-indies-courtyard-house-01-f895772768b43be5bb53b076c399e486.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23429,
+		"inputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-f895772768b43be5bb53b076c399e486.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-f895772768b43be5bb53b076c399e486.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7572,24 +7604,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/west-london-office-01-cd2a982f1af43c8470845d6616903981.jpg": {
+	"\/thumbs\/west-london-office-01-d5468d628662f1270e63e46315096c07.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 47521,
-		"inputAbbreviatedPath": "\/thumbs\/west-london-office-01-cd2a982f1af43c8470845d6616903981.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/west-london-office-01-cd2a982f1af43c8470845d6616903981.jpg",
+		"inputAbbreviatedPath": "\/thumbs\/west-london-office-01-d5468d628662f1270e63e46315096c07.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/west-london-office-01-d5468d628662f1270e63e46315096c07.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/west-london-pied-a-terre-01-591739ea6e71b9db2944500922ae8218.jpg": {
+	"\/thumbs\/west-london-pied-a-terre-01-4cdf9855bfdf442758571b7c18b4f8be.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 22373,
-		"inputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-591739ea6e71b9db2944500922ae8218.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-591739ea6e71b9db2944500922ae8218.jpg",
+		"inputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-4cdf9855bfdf442758571b7c18b4f8be.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-4cdf9855bfdf442758571b7c18b4f8be.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7627,6 +7659,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/wiltshire-barn-01-4e91fd77ede3b6394098df7f6b0ae3b7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43412,
+		"inputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-4e91fd77ede3b6394098df7f6b0ae3b7.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-4e91fd77ede3b6394098df7f6b0ae3b7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/wiltshire-barn-01-9a5424069e8f36849daa72ac45f34b1c.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7638,13 +7681,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/thumbs\/wiltshire-barn-01-f9cdece64017e0a16ac772dd230f9cde.jpg": {
+	"\/thumbs\/wiltshire-coach-house-01-0cf9c2329ececeb6b164e096256e33ee.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 43412,
-		"inputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-f9cdece64017e0a16ac772dd230f9cde.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-f9cdece64017e0a16ac772dd230f9cde.jpg",
+		"initialSize": 18273,
+		"inputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-0cf9c2329ececeb6b164e096256e33ee.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-0cf9c2329ececeb6b164e096256e33ee.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7656,17 +7699,6 @@
 		"initialSize": 18273,
 		"inputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-92ae65dbc3a43653da942e8468bfecfd.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-92ae65dbc3a43653da942e8468bfecfd.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/thumbs\/wiltshire-coach-house-01-c96794bb3153b5ce72cd3bbf72432a27.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18273,
-		"inputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-c96794bb3153b5ce72cd3bbf72432a27.jpg",
-		"outputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-c96794bb3153b5ce72cd3bbf72432a27.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7685,7 +7717,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "William Knowles",
+"lastSavedByUser": "CKD",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -7849,7 +7881,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/ckd.local\/",
+	"externalServerAddress": "http:\/\/ckd.test\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

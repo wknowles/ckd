@@ -1,0 +1,249 @@
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* Site
+-------------------------------------------------- */
+body {
+	color: #FCFDFF;
+	}
+
+.logo {
+	height: 35vh;
+}
+
+header {
+	padding: 20px 0px;
+	text-align: center;
+	 height:70vh;
+	background: url("../images/hero1.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.sub-heading{
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+}
+
+.headerProject {
+  display: inline-block;
+}
+
+.about{
+padding-bottom: 1rem;
+background-color: #fff;
+border-top: 1px dotted #444;
+}
+
+.about-content {
+  background: #FCFDFF;
+  color: #444444;
+  padding: 20px;
+}
+
+.about-content a, .about-content a:focus.about-content a:hover {
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+}
+
+.about-content a {
+    background-image: linear-gradient(transparent 0%,  transparent 50%,  #001F3F 50%,  #001F3F 100%);
+    color: #001F3F;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.about-content a:focus, .about-content a:hover {
+    background-image: linear-gradient(transparent 0%,  transparent 50%,  #0074D9 50%,  #0074D9 100%);
+    color: #0074D9;
+}
+
+.projects {
+background: #FCFDFF;
+padding: 30px 0;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  width: 300px
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.project-header{
+  background: #FCFDFF;
+}
+
+.project {
+  background: #FCFDFF;
+  color: #444444;
+  padding: 1rem;
+  }
+
+.img-adjust {
+    height: 50vh;
+    width: auto;
+}
+
+.project-content {
+  padding: 0 0 2rem;
+}
+
+.project-content h1{
+ font-size: 2.4rem;
+}
+
+.project-content p{
+  max-width: 48rem;
+  line-height: 1.6rem;
+}
+
+.project-return {
+/*  line-height: 3em;*/
+}
+
+.project a, .project a:focus.project a:hover {
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+}
+
+.project a {
+    background-image: linear-gradient(transparent 0%,  transparent 50%,  #001F3F 50%,  #001F3F 100%);
+    color: #001F3F;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.project a:focus, .project a:hover {
+    background-image: linear-gradient(transparent 0%,  transparent 50%,  #0074D9 50%,  #0074D9 100%);
+    color: #0074D9;
+}
+
+.contact{
+		background: url(../images/office.jpg) no-repeat center center fixed;
+	  background-size: cover;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+}
+
+.address{
+	padding: 200px 0;
+	text-align: center;
+	color: #FCFDFF;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.address-text{
+ padding: 20px;
+ font-weight: 300;
+}
+
+.address h3{
+	margin-bottom: 0.6em;
+}
+
+.address a {
+	color: #FCFDFF;
+	text-decoration: none;
+}
+
+hr {
+	   margin-top: 20px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px solid #FCFDFF;
+}
+
+.floatright {
+	float: right;
+}
+
+a[href^="tel:"]:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+
+/* -- Gallery ------------------------------------- */
+
+.gallery-cell{
+  margin-right: 10px;
+}
+
+.imgcontent {
+    margin: 0 auto;
+    padding: 0 2em;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+/*	media queries */
+
+@media (min-width: 600px) {
+  body {
+    background: #111111;
+    padding: 3em;
+  }
+
+  .about{
+  background-color: #FCFDFF;
+  }
+}
+
+@media (min-width: 960px) {
+  .about-content {
+    display: flex;
+  }
+
+  .aboutLeft{
+    padding: 0 1rem;
+    border-right: 1px dotted #444;
+  }
+
+  .aboutRight{
+    padding: 0 2rem;
+  }
+}
