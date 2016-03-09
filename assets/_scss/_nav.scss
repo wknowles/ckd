@@ -8,26 +8,27 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
+    float: right;
+    background: $white;
+    @include box-shadow(
+        $horizontal: 0px,
+        $vertical: 4px,
+        $blur: 10px,
+        $color: $grey
+    );
+    animation: fadeInDown 0.30s;
+    ul {
+        margin: 1rem;
+    }
 }
 
 nav ul {
-    // list-style-type: none;
-    // margin: 0 auto;
-    // padding: 0;
-    // overflow: hidden;
-    // background: $white;
-    // position: fixed;
-    // top: 0;
-    // width: 100%;
-    // z-index: 10000;
-    // border-bottom: 1px solid $black;
 }
 
 nav li {
     display:inline-block;
     background: $white;
     letter-spacing: 0.0625rem;
-    text-align: center;
     padding: 10px 40px;
     text-transform: uppercase;
     font-weight: bold;

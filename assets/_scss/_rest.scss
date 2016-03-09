@@ -35,7 +35,6 @@ body {
 }
 
 header {
-  padding: 20px 0px;
   text-align: center;
   height:100vh;
   background: url("../images/hero1.jpg") no-repeat center center fixed;
@@ -228,8 +227,8 @@ a[href^="tel:"]:before {
 
 @media (min-width: 600px) {
   .container {
-    background: $black;
-    padding: 1.6em;
+    // background: $black;
+    // padding: 3em;
   }
 
   .about{

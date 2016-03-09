@@ -150,7 +150,6 @@ body {
 }
 
 header {
-  padding: 20px 0px;
   text-align: center;
   height: 100vh;
   background: url("../images/hero1.jpg") no-repeat center center fixed;
@@ -338,11 +337,6 @@ a[href^="tel:"]:before {
 
 /* -- Media Queries -------------------------------------------------------------------------------------------------------- */
 @media (min-width: 600px) {
-  .container {
-    background: #111;
-    padding: 1.6em;
-  }
-
   .about {
     background-color: #FCFDFF;
   }
@@ -371,13 +365,21 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
+  float: right;
+  background: #FCFDFF;
+  -webkit-box-shadow: 0px 4px 10px #444;
+  -moz-box-shadow: 0px 4px 10px #444;
+  box-shadow: 0px 4px 10px #444;
+  animation: fadeInDown 0.30s;
+}
+.nav-stick ul {
+  margin: 1rem;
 }
 
 nav li {
   display: inline-block;
   background: #FCFDFF;
   letter-spacing: 0.0625rem;
-  text-align: center;
   padding: 10px 40px;
   text-transform: uppercase;
   font-weight: bold;
