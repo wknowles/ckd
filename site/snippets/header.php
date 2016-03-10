@@ -12,19 +12,19 @@
   <?php echo css('assets/css/style.css') ?>
 </head>
 <body>
-
-<div class="container">
 <header>
     <div>
       <img class="logo fadeInDown" src="<?php echo url('assets/images/CKD.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
       <h1 class="fadeIn"><?php echo kirbytextSans($site->title()) ?></h1>
       <h2 class="fadeIn sub-heading"><?php echo kirbytextSans($site->description()) ?></h2>
        <nav class="main-nav">
+       <h2 class="sticky-title">Charles Knowles Design</h2>
         <ul>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+
       </nav>
  </div>
  </header>

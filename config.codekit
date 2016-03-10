@@ -114,6 +114,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/_scss\/mixins\/media-queries.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/mixins\/media-queries.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/css\/media-queries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/_scss\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -197,17 +213,6 @@
 		"initialSize": 239028,
 		"inputAbbreviatedPath": "\/assets\/images\/practice.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/practice.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/west-london-office-02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 206324,
-		"inputAbbreviatedPath": "\/assets\/images\/west-london-office-02.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/west-london-office-02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
