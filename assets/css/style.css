@@ -384,8 +384,8 @@ nav li {
 }
 nav li a {
   padding: 10px 40px;
-  color: #FCFDFF;
-  background: #000;
+  color: #000;
+  background: #FCFDFF;
   text-decoration: none;
   -webkit-transition: background 0.6s ease;
   -moz-transition: background 0.6s ease;
@@ -394,12 +394,12 @@ nav li a {
   transition: background 0.6s ease;
 }
 nav li a:hover {
-  color: #000;
-  background: #FCFDFF;
+  color: #FCFDFF;
+  background: #000;
 }
 nav .active {
-  color: #000;
-  background: #FCFDFF;
+  color: #FCFDFF;
+  background: #000;
 }
 
 .nav-stick {
@@ -408,7 +408,7 @@ nav .active {
   top: 0;
   left: 0;
   float: right;
-  background: #000;
+  background: #FCFDFF;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -428,7 +428,7 @@ nav .active {
   position: fixed;
   width: 100%;
   top: 0;
-  background: #000;
+  background: #FCFDFF;
   -webkit-box-shadow: 0px 4px 10px #444;
   -moz-box-shadow: 0px 4px 10px #444;
   box-shadow: 0px 4px 10px #444;

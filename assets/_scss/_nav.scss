@@ -9,22 +9,18 @@ nav {
   }
   li a {
     padding: 10px 40px;
-    color: $white;
-    background: $black;
+    color: $black;
+    background: $white;
     text-decoration: none;
     @include transition(background .6s ease);
       &:hover {
-        color: $black;
-        background: $white;
+        color: $white;
+        background: $black;
       }
   }
   .active {
-    color: $black;
-    background: $white;
-    // background-image: linear-gradient(0deg, $purple 100%, $purple 0%);
-    // background-size: 200% 10%;
-    // background-repeat: repeat-x;
-    // background-position: 0 93%;
+    color: $white;
+    background: $black;
   }
 }
 
@@ -34,7 +30,7 @@ nav {
   top: 0;
   left: 0;
   float: right;
-  background:$black;
+  background:$white;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -57,7 +53,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
-  background:$black;
+  background:$white;
   @include box-shadow(
     $horizontal: 0px,
     $vertical: 4px,
