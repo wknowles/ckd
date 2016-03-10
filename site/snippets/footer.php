@@ -38,12 +38,20 @@ $(document).ready(function(){
       headerHeight = $('header').height();
 
   $(window).scroll(function() {
-    if( $(this).scrollTop() > headerHeight ) {
+    if( $(this).scrollTop() > (headerHeight / 1.333 )) {
       mainNav.addClass(navStick);
     } else {
       mainNav.removeClass(navStick);
     }
   });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('a').click(function(){
+    $('a').removeClass("active");
+    $(this).addClass("active");
+});
 });
 </script>
 </body>

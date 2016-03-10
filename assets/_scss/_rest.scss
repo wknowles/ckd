@@ -8,22 +8,6 @@
   margin: 0;
 }
 
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
-}
-
-
 /* Site
 -------------------------------------------------- */
 body {
@@ -50,18 +34,94 @@ header {
 }
 
 .sub-heading{
+  padding-bottom: 0.8rem;
   letter-spacing: 0.1rem;
   font-weight: 300;
 }
 
-.headerProject {
-  display: inline-block;
+/* -- Projects --------------------------------------------------------------------------------------------------------------- */
+
+.projects {
+  padding-top: 6.8rem;
 }
 
+.grid {
+  margin: 0 auto;
+}
+
+.grid-item {
+  width: auto;
+  height: auto;
+  margin-bottom: 25px;
+  @include animation(fadeIn 0.65s);
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* -- Individual Project --------------------------------------------------------------------------------------------------------------- */
+
+.project {
+  background: $white;
+  color: $grey;
+  margin-top: 6rem;
+  padding: 1rem;
+  }
+
+.project-header{
+  background: $white;
+}
+
+.img-adjust {
+    height: 50vh;
+    width: auto;
+}
+
+.project-content {
+  margin: 0 auto;
+  max-width: 48rem;
+  padding: 0 0 2rem;
+}
+
+.project-content h1{
+  font-size: 2.4rem;
+}
+
+.project-content p{
+  line-height: 1.6rem;
+}
+
+.project-return {
+  line-height: 5rem;
+  font-size: $baseFontSize / 22 * 100%;
+}
+
+.project a, .project a:focus.project a:hover {
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+}
+
+.project a {
+    background-image: linear-gradient(transparent 0%,  transparent 50%,  $purple 50%,  $purple 100%);
+    color: $purple;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.project a:focus, .project a:hover {
+    background-image: linear-gradient(transparent 0%,  transparent 50%,  $blue 50%,  $blue 100%);
+    color: $blue;
+}
+
+/* -- About --------------------------------------------------------------------------------------------------------------- */
+
 .about{
-padding-bottom: 1rem;
-background-color: $white;
-border-top: 1px dotted $grey;
+padding: 6.8rem 0;
 }
 
 .floatright {
@@ -88,79 +148,6 @@ border-top: 1px dotted $grey;
 }
 
 .about-content a:focus, .about-content a:hover {
-    background-image: linear-gradient(transparent 0%,  transparent 50%,  $blue 50%,  $blue 100%);
-    color: $blue;
-}
-
-.projects {
-background: $white;
-padding: 30px 0;
-}
-
-.grid {
-  margin: 0 auto;
-}
-
-/* clearfix */
-
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.grid-item {
-  width: auto;
-  height: auto;
-  margin-bottom: 25px;
-}
-
-.project-header{
-  background: $white;
-}
-
-.project {
-  background: $white;
-  color: $grey;
-  padding: 1rem;
-  }
-
-.img-adjust {
-    height: 50vh;
-    width: auto;
-}
-
-.project-content {
-  padding: 0 0 2rem;
-}
-
-.project-content h1{
- font-size: 2.4rem;
-}
-
-.project-content p{
-  max-width: 48rem;
-  line-height: 1.6rem;
-}
-
-.project-return {
-/*  line-height: 3em;*/
-}
-
-.project a, .project a:focus.project a:hover {
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 2px 2px;
-}
-
-.project a {
-    background-image: linear-gradient(transparent 0%,  transparent 50%,  $purple 50%,  $purple 100%);
-    color: $purple;
-    text-decoration: none;
-    transition: color .3s;
-}
-
-.project a:focus, .project a:hover {
     background-image: linear-gradient(transparent 0%,  transparent 50%,  $blue 50%,  $blue 100%);
     color: $blue;
 }

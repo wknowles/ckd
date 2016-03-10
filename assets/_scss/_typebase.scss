@@ -1,19 +1,19 @@
 /*! Typebase.scss v0.1.0 | MIT License */
 
 // Typesetting variables. Edit these!
-$baseFontSize:22; // in pixels. This would result in 22px on desktop
+$baseFontSize:16; // in pixels. This would result in 22px on desktop
 $baseLineHeight:1.5; // how large the line height is as a multiple of font size
 $leading:$baseLineHeight * 1rem;
 // Rate of growth for headings
 // I actually like this to be slightly smaller then the leading. Makes for tight headings.
-$scale:1.414;
+$scale:1.125;
 
 /* Setup */
 
 html {
     /* Change default typefaces here */
     font-family: $base-font-family;
-    font-size: $baseFontSize / 22 * 100%;
+    font-size: $baseFontSize / 16 * 100%;
     // Make everything look a little nicer in webkit
     -webkit-font-smoothing: antialiased;
     // -webkit-text-size-adjust: auto
@@ -28,6 +28,7 @@ html {
     webkit-font-feature-settings: "kern";
     font-feature-settings: "kern";
     font-kerning: normal;
+    background: $white;
 }
 /* Copy & Lists */
 

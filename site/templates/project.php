@@ -4,7 +4,7 @@
     <div class="project-content">
       <h1><?php echo kirbytextSans($page->title()) ?></h1>
         <?php echo kirbytext($page->text()) ?>
+      <a class="project-return" href="../../#projects"><< Back to Projects</a>
     </div>
-    <a class="project-return" href="../../#projects"><< Back to Projects</a>
 </div>
 <?php snippet('footerProject'); ?>

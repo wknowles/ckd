@@ -17,8 +17,8 @@
 <header>
     <div>
       <img class="logo fadeInDown" src="<?php echo url('assets/images/CKD.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-      <h2 class="fadeIn"><?php echo kirbytextSans($site->title()) ?></h2>
-      <h3 class="fadeIn sub-heading"><?php echo kirbytextSans($site->description()) ?></h3>
+      <h1 class="fadeIn"><?php echo kirbytextSans($site->title()) ?></h1>
+      <h2 class="fadeIn sub-heading"><?php echo kirbytextSans($site->description()) ?></h2>
        <nav class="main-nav">
         <ul>
           <li><a href="#projects">Projects</a></li>
@@ -28,5 +28,3 @@
       </nav>
  </div>
  </header>
-
-

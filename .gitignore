@@ -1,6 +1,8 @@
 .DS_Store
 /site/accounts
 /assets/avatars
+**/.sass-cache
+**/.sass-cache/*
 /thumbs/*
 /kirby
 /panel
