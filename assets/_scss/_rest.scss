@@ -129,6 +129,9 @@ background: $light-grey;
 
 .floatright {
   float: right;
+  img{
+  @include box-emboss(0.8, 0.05);
+}
 }
 
 .about-content {
@@ -140,6 +143,7 @@ background: $light-grey;
     background-position: bottom;
     background-repeat: repeat-x;
     background-size: 2px 2px;
+
 }
 
 .about-content a {
@@ -167,7 +171,7 @@ background: $light-grey;
   align-items: center;
   justify-content: center;
   z-index:-1;
-    position: relative;
+  position: relative;
 }
 
 .address{

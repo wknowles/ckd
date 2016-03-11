@@ -361,6 +361,9 @@ header {
 .floatright {
   float: right;
 }
+.floatright img {
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8), inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05);
+}
 
 .about-content {
   color: #000;
