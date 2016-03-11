@@ -13,7 +13,7 @@
 </head>
 <body>
 <nav class="nav-stick">
-  <h2 class="sticky-title">Charles Knowles Design</h2>
+  <h2 class="sticky-title"><a href="<?php echo $site->url() ?>">Charles Knowles Design</a></h2>
     <ul>
       <li><a class="active" href="<?php echo $site->url() ?>#projects">Projects</a></li>
       <li><a href="<?php echo $site->url() ?>#about">About</a></li>
