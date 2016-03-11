@@ -47,11 +47,8 @@ header {
 .grid-item {
   width: auto;
   height: auto;
-  margin-bottom: 25px;
+  margin-bottom: 55px;
   @include animation(fadeIn 0.65s);
-  a{
-    height: AUTO;
-  }
 }
 
 /* clearfix */

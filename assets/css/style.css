@@ -58,7 +58,7 @@
 /* Setup */
 html {
   /* Change default typefaces here */
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -109,7 +109,7 @@ h4,
 h5,
 h6 {
   /* Change heading typefaces here */
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 1.5rem;
   margin-bottom: 0;
   line-height: 1.5rem;
@@ -296,15 +296,12 @@ header {
 .grid-item {
   width: auto;
   height: auto;
-  margin-bottom: 25px;
+  margin-bottom: 55px;
   -webkit-animation: fadeIn 0.65s;
   -moz-animation: fadeIn 0.65s;
   -ms-animation: fadeIn 0.65s;
   -o-animation: fadeIn 0.65s;
   animation: fadeIn 0.65s;
-}
-.grid-item a {
-  height: AUTO;
 }
 
 /* clearfix */

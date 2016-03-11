@@ -4,15 +4,14 @@ var elem = document.querySelector('.grid');
 var msnry = new Masonry( elem, {
   // options
   itemSelector: '.grid-item',
-  columnWidth: 380,
-
+  columnWidth: 500,
 });
 
 // element argument can be a selector string
 //   for an individual element
 var msnry = new Masonry( '.grid', {
   // options
-    gutter: 30,
+    gutter: 60,
     fitWidth: true
 });
 </script>
