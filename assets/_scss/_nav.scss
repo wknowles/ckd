@@ -12,7 +12,6 @@ nav {
     color: $grey;
     background: $white;
     text-decoration: none;
-    // background-image: linear-gradient(transparent 0%,  transparent 80%,  $light-grey 80%,  $light-grey 100%);
     border: 1px solid $white;
     @include transition(background .6s ease);
       &:hover {
@@ -58,25 +57,5 @@ nav {
     margin-top: 0;
     padding: 10px 34px;
     letter-spacing: 0.0625rem;
-  }
-}
-
-.nav-project{
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background:$white;
-  @include box-shadow(
-    $horizontal: 0px,
-    $vertical: 10px,
-    $blur: 10px,
-    $spread: -10px,
-    $color: $black
-  );
-  ul{
-    margin:0 1rem;
-  }
-  li {
-    margin: 1rem 0;
   }
 }

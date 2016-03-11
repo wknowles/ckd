@@ -12,13 +12,8 @@
   <?php echo css('assets/css/style.css') ?>
 </head>
 <body>
-<!-- <div class="project-header">
-  <a href="<?php echo url() ?>">
-    <img class="logoProject" src="<?php echo url('assets/images/ckd_small.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    <h2><?php echo kirbytextSans($site->title()) ?></h2>
-  </a>
-</div> -->
-<nav class="nav-project">
+<nav class="nav-stick">
+  <h2 class="sticky-title">Charles Knowles Design</h2>
     <ul>
       <li><a class="active" href="<?php echo $site->url() ?>#projects">Projects</a></li>
       <li><a href="<?php echo $site->url() ?>#about">About</a></li>
