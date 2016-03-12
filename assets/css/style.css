@@ -175,14 +175,19 @@ nav {
   width: 100%;
   z-index: 10000;
 }
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
 nav li {
-  display: inline-block;
+  list-style: none;
+  flex-grow: 1;
+  text-align: center;
   letter-spacing: 0.0625rem;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 nav li a {
   padding: 10px 40px;
+  display: block;
   color: #444;
   background: #FCFDFF;
   text-decoration: none;
@@ -225,7 +230,6 @@ nav .active {
   margin: 1rem;
 }
 .nav-stick .sticky-title {
-  text-shadow: 2px 1px 2px #dedede;
   visibility: visible;
   color: #444;
   margin-top: 0;
@@ -240,7 +244,7 @@ body {
 }
 
 .logo {
-  height: 20vh;
+  height: 30vh;
 }
 
 header {
@@ -254,13 +258,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
 }
 
 .sub-heading {
   padding-bottom: 0.8rem;
-  letter-spacing: 0.1rem;
   font-weight: 300;
 }
 
@@ -328,7 +329,6 @@ header {
 
 .project-return {
   line-height: 5rem;
-  font-size: 72.7272727273%;
 }
 
 .project a, .project a:focus.project a:hover {
