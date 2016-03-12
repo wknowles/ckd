@@ -270,6 +270,7 @@ header {
 
 /* -- Projects --------------------------------------------------------------------------------------------------------------- */
 .projects {
+  background: #eeeeee;
   padding-top: 6.8rem;
 }
 
@@ -297,10 +298,9 @@ header {
 
 /* -- Individual Project --------------------------------------------------------------------------------------------------------------- */
 .project {
-  background: #FCFDFF;
+  background: #dedede;
   color: #444;
-  margin-top: 6rem;
-  padding: 1rem;
+  padding: 6rem 1rem 1rem 1rem;
 }
 
 .project-header {
@@ -366,7 +366,7 @@ header {
 }
 
 .about-content {
-  color: #000;
+  color: #444;
   padding: 20px;
 }
 

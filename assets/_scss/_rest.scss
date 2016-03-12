@@ -37,6 +37,7 @@ header {
 /* -- Projects --------------------------------------------------------------------------------------------------------------- */
 
 .projects {
+  background: $lighter-grey;
   padding-top: 6.8rem;
 }
 
@@ -61,10 +62,9 @@ header {
 /* -- Individual Project --------------------------------------------------------------------------------------------------------------- */
 
 .project {
-  background: $white;
+  background: $light-grey;
   color: $grey;
-  margin-top: 6rem;
-  padding: 1rem;
+  padding: 6rem 1rem 1rem 1rem;
   }
 
 .project-header{
@@ -80,6 +80,7 @@ header {
   margin: 0 auto;
   max-width: 48rem;
   padding: 0 0 2rem;
+
 }
 
 .project-content h1{
@@ -135,7 +136,7 @@ background: $light-grey;
 }
 
 .about-content {
-  color: $black;
+  color: $grey;
   padding: 20px;
 }
 
