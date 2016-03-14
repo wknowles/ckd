@@ -11,7 +11,7 @@ var msnry = new Masonry( elem, {
 //   for an individual element
 var msnry = new Masonry( '.grid', {
   // options
-    gutter: 60,
+    gutter: 45,
     fitWidth: true
 });
 </script>

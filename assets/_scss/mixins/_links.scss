@@ -1,0 +1,53 @@
+@mixin unstyled-link {
+  a{
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+    &:active, &:focus {
+      outline: none;
+      background:none;
+    }
+  }
+}
+
+@mixin text-underline-crop($background) {
+    text-shadow:  .03em 0 $background,
+                  -.03em 0 $background,
+                  0 .03em $background,
+                  0 -.03em $background,
+                  .06em 0 $background,
+                  -.06em 0 $background,
+                  .09em 0 $background,
+                  -.09em 0 $background,
+                  .12em 0 $background,
+                  -.12em 0 $background,
+                  .15em 0 $background,
+                  -.15em 0 $background;
+}
+
+@mixin text-background($color-bg, $color-text) {
+    background-image: linear-gradient($color-text, $color-text);
+    background-size: 1px 1px;
+    background-repeat: repeat-x;
+    background-position:  0% 96%;
+}
+
+@mixin link-underline($background, $text){
+    @include text-underline-crop($background);
+    @include text-background($background, $text);
+
+    color: $text;
+    text-decoration: none;
+
+    *,
+    *:after,
+    &:after,
+    *:before,
+    &:before {
+        text-shadow: none;
+    }
+
+    &:visited {
+        color: $text;
+    }
+}

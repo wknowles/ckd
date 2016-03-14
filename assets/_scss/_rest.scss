@@ -1,8 +1,9 @@
 
 /* Site
 -------------------------------------------------- */
-body {
-  color: $white;
+html {
+  background-color: $color-bg-base;
+  color: $color-text-base;
   }
 
 .logo {
@@ -22,19 +23,21 @@ header {
   justify-content: center;
 }
 
+.heading {
+  color: $white;
+}
+
 .sub-heading{
+  @extend .heading;
   padding-bottom: 0.8rem;
   font-weight: 300;
 }
 
-.sticky-title{
-  visibility: hidden;
-}
+
 
 /* -- Projects --------------------------------------------------------------------------------------------------------------- */
 
 .projects {
-  background: $lighter-grey;
   padding-top: 6.8rem;
 }
 
@@ -45,17 +48,17 @@ header {
 .grid-item {
   width: auto;
   height: auto;
-  margin-bottom: 55px;
+  margin-bottom: 45px;
   @include box-shadow(1);
   @include animation(fadeIn 0.65s);
   -webkit-transition: all 250ms;
   -moz-transition: all 250ms;
   transition: all 250ms;
   &:hover {
-      @include box_shadow(3);
-      -webkit-transform: translateY(-5px);
-      -moz-transform: translateY(-5px);
-      transform: translateY(-5px);
+      @include box_shadow(2);
+  }
+  img{
+    display: block;
   }
 }
 
@@ -69,13 +72,13 @@ header {
 /* -- Individual Project --------------------------------------------------------------------------------------------------------------- */
 
 .project {
-  background: $light-grey;
-  color: $grey;
   padding: 6rem 1rem 1rem 1rem;
+    a{
+      @include link-underline($color-bg-base, $color-text-base);
+    }
   }
 
 .project-header{
-  background: $white;
 }
 
 .img-adjust {
@@ -102,60 +105,26 @@ header {
   line-height: 5rem;
 }
 
-.project a, .project a:focus.project a:hover {
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 2px 2px;
-}
-
-.project a {
-    background-image: linear-gradient(transparent 0%,  transparent 50%,  $purple 50%,  $purple 100%);
-    color: $purple;
-    text-decoration: none;
-    transition: color .3s;
-}
-
-.project a:focus, .project a:hover {
-    background-image: linear-gradient(transparent 0%,  transparent 50%,  $blue 50%,  $blue 100%);
-    color: $blue;
-}
-
 /* -- About --------------------------------------------------------------------------------------------------------------- */
 
 .about{
 padding: 6.8rem 0;
-background: $light-grey;
+background: $color-bg-highlight;
 }
 
 .floatright {
   float: right;
   img{
   @include box-emboss(0.8, 0.05);
-}
+  }
 }
 
 .about-content {
-  color: $grey;
   padding: 20px;
-}
-
-.about-content a, .about-content a:focus.about-content a:hover {
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 2px 2px;
-
-}
-
-.about-content a {
-    background-image: linear-gradient(transparent 0%,  transparent 50%,  $purple 50%,  $purple 100%);
-    color: $purple;
-    text-decoration: none;
-    transition: color .3s;
-}
-
-.about-content a:focus, .about-content a:hover {
-    background-image: linear-gradient(transparent 0%,  transparent 50%,  $blue 50%,  $blue 100%);
-    color: $blue;
+  // @include underlined-link
+  a{
+  @include link-underline($color-bg-highlight, $color-text-base);
+  }
 }
 
 /* -- Contact --------------------------------------------------------------------------------------------------------------- */
@@ -170,7 +139,6 @@ background: $light-grey;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index:-1;
   position: relative;
 }
 
