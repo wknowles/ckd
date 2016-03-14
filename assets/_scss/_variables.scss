@@ -6,6 +6,8 @@ $heading-font-family: $base-font-family;
 $color-bg-base: rgba(244, 244, 244, 1);
 $color-bg-highlight: rgba(222, 222, 222, 1);
 $color-text-base: rgba(0, 31, 63, 1);
+$color-text-alt: lighten(desaturate($color-text-base, 85), 30);
+
 $white: #FCFDFF;
 
 $black: #000;

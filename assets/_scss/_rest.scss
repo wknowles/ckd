@@ -33,8 +33,6 @@ header {
   font-weight: 300;
 }
 
-
-
 /* -- Projects --------------------------------------------------------------------------------------------------------------- */
 
 .projects {
@@ -76,14 +74,14 @@ header {
     a{
       @include link-underline($color-bg-base, $color-text-base);
     }
-  }
+}
 
 .project-header{
 }
 
 .img-adjust {
-    height: 50vh;
-    width: auto;
+  height: 50vh;
+  width: auto;
 }
 
 .project-content {
@@ -108,8 +106,8 @@ header {
 /* -- About --------------------------------------------------------------------------------------------------------------- */
 
 .about{
-padding: 6.8rem 0;
-background: $color-bg-highlight;
+  padding: 6.8rem 0;
+  background: $color-bg-highlight;
 }
 
 .floatright {
@@ -140,11 +138,11 @@ background: $color-bg-highlight;
   align-items: center;
   justify-content: center;
   position: relative;
+  color: $color-bg-base;
 }
 
 .address{
   text-align: center;
-  color: $white;
 }
 
 .address-text{
@@ -157,7 +155,7 @@ background: $color-bg-highlight;
 }
 
 .address a {
-  color: $white;
+  color: $color-bg-base;
   text-decoration: none;
 }
 
@@ -165,7 +163,7 @@ hr {
      margin-top: 20px;
     margin-bottom: 40px;
     border: 0;
-    border-top: 1px solid $white;
+    border-top: 1px solid $color-bg-base;
 }
 
 a[href^="tel:"]:before {
