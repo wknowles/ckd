@@ -46,7 +46,17 @@ header {
   width: auto;
   height: auto;
   margin-bottom: 55px;
+  @include box-shadow(1);
   @include animation(fadeIn 0.65s);
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  transition: all 250ms;
+  &:hover {
+      @include box_shadow(3);
+      -webkit-transform: translateY(-5px);
+      -moz-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
 }
 
 /* clearfix */
@@ -115,13 +125,6 @@ header {
 .about{
 padding: 6.8rem 0;
 background: $light-grey;
-  @include box-shadow(
-    $horizontal: 0px,
-    $vertical: 10px,
-    $blur: 10px,
-    $spread: -10px,
-    $color: $black
-  );
 }
 
 .floatright {

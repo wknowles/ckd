@@ -10,8 +10,6 @@ nav {
     flex-grow: 1;
     text-align: center;
     letter-spacing: 0.0625rem;
-    // text-transform: uppercase;
-    // font-weight: bold;
   }
   li a {
     padding: 10px 40px;
@@ -38,7 +36,7 @@ nav {
   top: 0;
   left: 0;
   float: right;
-  background:$white;
+  background:$lighter-grey;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -46,13 +44,7 @@ nav {
   -webkit-justify-content: space-between;
   justify-content: space-between;
   align-items: center;
-  @include box-shadow(
-    $horizontal: 0px,
-    $vertical: 10px,
-    $blur: 10px,
-    $spread: -10px,
-    $color: $black
-  );
+  @include box-shadow(2);
   animation: fadeInDown 0.10s;
   ul {
     margin: 1rem;
