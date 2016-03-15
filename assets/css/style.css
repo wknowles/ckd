@@ -34,25 +34,6 @@
     opacity: 1;
   }
 }
-@media (min-width: 600px) {
-  .about {
-    background-color: #FCFDFF;
-  }
-}
-@media (min-width: 960px) {
-  .about-content {
-    display: flex;
-  }
-
-  .aboutLeft {
-    padding: 0 1rem;
-    border-right: 1px dotted #8c8c8c;
-  }
-
-  .aboutRight {
-    padding: 0 2rem;
-  }
-}
 /*! Typebase.scss v0.1.0 | MIT License */
 /* Setup */
 html {
@@ -111,7 +92,6 @@ h6 {
   margin-top: 1.5rem;
   margin-bottom: 0;
   line-height: 1.5rem;
-  color: #5c6c7c;
 }
 
 h1 {
@@ -208,20 +188,6 @@ nav .active {
 
 .sticky-title {
   display: none;
-  font-weight: 500;
-  color: #5c6c7c;
-  margin-top: 0;
-  margin-left: 2rem;
-  letter-spacing: 0.0625rem;
-}
-.sticky-title a {
-  color: inherit;
-  text-decoration: inherit;
-  cursor: inherit;
-}
-.sticky-title a:active, .sticky-title a:focus {
-  outline: none;
-  background: none;
 }
 
 .nav-stick {
@@ -246,6 +212,20 @@ nav .active {
 }
 .nav-stick .sticky-title {
   display: inline-block;
+  font-weight: 500;
+  color: #5c6c7c;
+  margin-top: 0;
+  margin-left: 2rem;
+  letter-spacing: 0.0625rem;
+}
+.nav-stick .sticky-title a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+.nav-stick .sticky-title a:active, .nav-stick .sticky-title a:focus {
+  outline: none;
+  background: none;
 }
 
 /* Site
@@ -353,6 +333,7 @@ header {
 
 .project-content h1 {
   font-size: 2.4rem;
+  color: #5c6c7c;
 }
 
 .project-content p {
@@ -367,6 +348,25 @@ header {
 .about {
   padding: 6.8rem 0;
   background: #dedede;
+}
+
+@media (min-width: 60em) {
+  .about-content {
+    display: flex;
+  }
+}
+
+@media (min-width: 60em) {
+  .aboutLeft {
+    padding: 0 1rem;
+    border-right: 1px dotted #5c6c7c;
+  }
+}
+
+@media (min-width: 60em) {
+  .aboutRight {
+    padding: 0 2rem;
+  }
 }
 
 .floatright {

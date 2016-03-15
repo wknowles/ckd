@@ -32,14 +32,6 @@ nav {
 
 .sticky-title{
   display: none;
-  font-weight: 500;
-  color: $color-text-alt;
-  // background: $white;
-  margin-top: 0;
-  margin-left: 2rem;
-  // padding: 0px 20px;
-  letter-spacing: 0.0625rem;
-  @include unstyled-link;
 }
 
 .nav-stick {
@@ -63,5 +55,11 @@ nav {
   }
   .sticky-title{
     display: inline-block;
+    font-weight: 500;
+    color: $color-text-alt;
+    margin-top: 0;
+    margin-left: 2rem;
+    letter-spacing: 0.0625rem;
+    @include unstyled-link;
   }
 }

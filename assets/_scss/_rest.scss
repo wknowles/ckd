@@ -93,6 +93,7 @@ header {
 
 .project-content h1{
   font-size: 2.4rem;
+  color: $color-text-alt;
 }
 
 .project-content p{
@@ -108,6 +109,18 @@ header {
 .about{
   padding: 6.8rem 0;
   background: $color-bg-highlight;
+}
+
+.about-content {
+  @include breakpoint(medium-screen){ display: flex;}
+}
+
+.aboutLeft{
+  @include breakpoint(medium-screen){ padding: 0 1rem; border-right: 1px dotted $color-text-alt; }
+}
+
+.aboutRight{
+  @include breakpoint(medium-screen){padding: 0 2rem;}
 }
 
 .floatright {
