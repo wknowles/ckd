@@ -34,8 +34,10 @@ nav {
   display: none;
   font-weight: 500;
   color: $color-text-alt;
+  // background: $white;
   margin-top: 0;
-  padding: 10px 34px;
+  margin-left: 2rem;
+  // padding: 0px 20px;
   letter-spacing: 0.0625rem;
   @include unstyled-link;
 }

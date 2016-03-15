@@ -112,16 +112,12 @@ header {
 
 .floatright {
   float: right;
-  img{
-  @include box-emboss(0.8, 0.05);
-  }
 }
 
 .about-content {
   padding: 20px;
-  // @include underlined-link
   a{
-  @include link-underline($color-bg-highlight, $color-text-base);
+    @include link-underline($color-bg-highlight, $color-text-base);
   }
 }
 
