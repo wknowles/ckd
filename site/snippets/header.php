@@ -11,7 +11,7 @@
   <?php echo css('assets/css/style.css') ?>
 </head>
 <body>
-<header id="header">
+<header id="header" class="hero">
     <div class="fadeIn">
       <img class="logo" src="<?php echo url('assets/images/CKD.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
       <h1 class="heading"><?php echo kirbytextSans($site->title()) ?></h1>
