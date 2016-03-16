@@ -243,6 +243,7 @@ html {
 
 header {
   text-align: center;
+  height: 440px;
   background: rgba(0, 31, 63, 0.7);
   background: url("../images/hero1.jpg") no-repeat center center fixed;
   background-size: cover;
