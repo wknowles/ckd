@@ -8,8 +8,13 @@
   margin: 0;
 }
 
-@import "variables";
-@import "mixins/*";
-@import "typebase";
-@import "nav";
-@import "rest";
+// Modules and Variables
+@import "partials/base"; // imports for all mixins + global project variables
+
+// Partials
+@import "partials/nav";
+@import "partials/rest";
+
+// Third-party -- CSS or Sass from other projects
+@import "vendor/typebase";
+

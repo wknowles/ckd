@@ -34,126 +34,11 @@
     opacity: 1;
   }
 }
-/*! Typebase.scss v0.1.0 | MIT License */
-/* Setup */
-html {
-  /* Change default typefaces here */
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizelegibility;
-  -webkit-font-variant-ligatures: common-ligatures;
-  font-variant-ligatures: common-ligatures;
-  webkit-font-feature-settings: "kern";
-  font-feature-settings: "kern";
-  font-kerning: normal;
-}
-
-/* Copy & Lists */
-p {
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-ul li,
-ol li {
-  line-height: 1.5rem;
-}
-ul ul,
-ul ol,
-ol ul,
-ol ol {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-blockquote {
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-/* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  /* Change heading typefaces here */
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-  line-height: 1.5rem;
-}
-
-h1 {
-  font-size: 3.375rem;
-  line-height: 4.5rem;
-  margin-top: 3rem;
-}
-
-h2 {
-  font-size: 2.25rem;
-  line-height: 3rem;
-  margin-top: 3rem;
-}
-
-h3 {
-  font-size: 1.125rem;
-}
-
-h4 {
-  font-size: 0.5625rem;
-}
-
-h5 {
-  font-size: 0.375rem;
-}
-
-h6 {
-  font-size: 0.28125rem;
-}
-
-/* Tables */
-table {
-  margin-top: 1.5rem;
-  border-spacing: 0px;
-  border-collapse: collapse;
-}
-
-td,
-th {
-  padding: 0;
-  line-height: 24px;
-}
-
-/* Code blocks */
-code {
-  vertical-align: bottom;
-}
-
-/* Leading paragraph text */
-.lead {
-  font-size: 1.125rem;
-}
-
-/* Hug a the block above you */
-.hug {
-  margin-top: 0;
-}
-
 nav {
   width: 100%;
   z-index: 10000;
-  width: 600px;
+  width: 680px;
+  margin: 0 auto;
 }
 nav ul {
   display: flex;
@@ -239,32 +124,36 @@ html {
 
 .logo {
   padding-top: 3em;
-  height: 10em;
+  height: 14em;
 }
 
 header {
   text-align: center;
-  height: 440px;
-  background: rgba(0, 31, 63, 0.3);
+  height: 500px;
+  background: url("../images/hero1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   display: flex;
   justify-content: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .heading, .sub-heading {
-  font-weight: 500;
+  font-weight: 300;
   color: #f4f4f4;
+  letter-spacing: 0.0625rem;
 }
 
 .sub-heading {
   padding-bottom: 0.8rem;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 /* -- Projects --------------------------------------------------------------------------------------------------------------- */
 .projects {
   padding-top: 6.8rem;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .grid {
@@ -447,4 +336,120 @@ a[href^="tel:"]:before {
   padding: 0 2em;
   margin-bottom: 50px;
   line-height: 1.6em;
+}
+
+/*! Typebase.scss v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  webkit-font-feature-settings: "kern";
+  font-feature-settings: "kern";
+  font-kerning: normal;
+}
+
+/* Copy & Lists */
+p {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+ul li,
+ol li {
+  line-height: 1.5rem;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 3.375rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-size: 0.5625rem;
+}
+
+h5 {
+  font-size: 0.375rem;
+}
+
+h6 {
+  font-size: 0.28125rem;
+}
+
+/* Tables */
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0;
+  line-height: 24px;
+}
+
+/* Code blocks */
+code {
+  vertical-align: bottom;
+}
+
+/* Leading paragraph text */
+.lead {
+  font-size: 1.125rem;
+}
+
+/* Hug a the block above you */
+.hug {
+  margin-top: 0;
 }

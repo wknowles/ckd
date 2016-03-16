@@ -8,19 +8,19 @@ html {
 
 .logo {
   padding-top: 3em;
-  height: 10em;
+  height: 14em;
 }
 
 header {
   text-align: center;
-  height:440px;
-  background: rgba(0, 31, 63, 0.3);
+  height:500px;
+  // background: rgba(0, 31, 63, 0.3);
   // background: rgba(0, 31, 63, 0.7);
-  // background: url("../images/hero1.jpg") no-repeat center center fixed;
-  // background-size: cover;
-  // -webkit-background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
+  background: url("../images/hero1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   display: flex;
   // align-items: center;
   justify-content: center;
@@ -28,21 +28,22 @@ header {
 }
 
 .heading {
-  font-weight: 500;
+  font-weight: $semi-light;
   color: $color-bg-base;
+  letter-spacing: 0.0625rem;
 }
 
 .sub-heading{
   @extend .heading;
   padding-bottom: 0.8rem;
-  font-weight: 300;
+  font-weight: $light;
+
 }
 
 /* -- Projects --------------------------------------------------------------------------------------------------------------- */
 
 .projects {
   padding-top: 6.8rem;
-  @include box-shadow(2);
 }
 
 .grid {
