@@ -238,24 +238,21 @@ html {
 }
 
 .logo {
+  padding-top: 3em;
   height: 10em;
 }
 
 header {
   text-align: center;
   height: 440px;
-  background: rgba(0, 31, 63, 0.7);
-  background: url("../images/hero1.jpg") no-repeat center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: rgba(0, 31, 63, 0.3);
   display: flex;
   justify-content: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .heading, .sub-heading {
+  font-weight: 500;
   color: #f4f4f4;
 }
 
