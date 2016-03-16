@@ -16,7 +16,7 @@
       <img class="logo" src="<?php echo url('assets/images/CKD.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
       <h1 class="heading"><?php echo kirbytextSans($site->title()) ?></h1>
       <h2 class="sub-heading"><?php echo kirbytextSans($site->description()) ?></h2>
-       <nav class="main-nav">
+      <nav class="main-nav">
        <h2 class="sticky-title"><a href="#header">Charles Knowles Design</a></h2>
         <ul>
           <li><a href="#projects">Projects</a></li>
