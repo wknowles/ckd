@@ -1,20 +1,4 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>
-var elem = document.querySelector('.grid');
-var msnry = new Masonry( elem, {
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: 500,
-});
-
-// element argument can be a selector string
-//   for an individual element
-var msnry = new Masonry( '.grid', {
-  // options
-    gutter: 45,
-    fitWidth: true
-});
-</script>
 <script type="text/javascript">
 $(document).ready(function(){
     $('a[href^="#"]').on('click',function (e) {
