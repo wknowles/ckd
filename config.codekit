@@ -2,15 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19102",
 "files": {
-	"\/assets\/_scss\/_nav.scss": {
-		"createSourceMap": 0,
+	"\/assets\/_scss\/partials\/_base.scss": {
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/_nav.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_nav.css",
+		"inputAbbreviatedPath": "\/assets\/_scss\/partials\/_base.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -18,15 +18,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/_scss\/_rest.scss": {
-		"createSourceMap": 0,
+	"\/assets\/_scss\/partials\/_content.scss": {
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/_rest.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_rest.css",
+		"inputAbbreviatedPath": "\/assets\/_scss\/partials\/_content.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_content.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -34,15 +34,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/_scss\/_sassline-base.scss": {
-		"createSourceMap": 0,
+	"\/assets\/_scss\/partials\/_footer.scss": {
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/_sassline-base.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_sassline-base.css",
+		"inputAbbreviatedPath": "\/assets\/_scss\/partials\/_footer.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -50,15 +50,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/_scss\/_typebase.scss": {
-		"createSourceMap": 0,
+	"\/assets\/_scss\/partials\/_header.scss": {
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/_typebase.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_typebase.css",
+		"inputAbbreviatedPath": "\/assets\/_scss\/partials\/_header.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -66,62 +66,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/_scss\/_variables.scss": {
-		"createSourceMap": 0,
+	"\/assets\/_scss\/partials\/_links.scss": {
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/_variables.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_variables.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/_scss\/mixins\/_animations.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/mixins\/_animations.scss",
-		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_animations.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/_scss\/mixins\/_box-shadows.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/mixins\/_box-shadows.scss",
-		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_box-shadows.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/_scss\/mixins\/_links.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/mixins\/_links.scss",
+		"inputAbbreviatedPath": "\/assets\/_scss\/partials\/_links.scss",
 		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_links.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -130,120 +82,8 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/_scss\/mixins\/_media-queries.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/mixins\/_media-queries.scss",
-		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_media-queries.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/_scss\/sassline-base\/_layouts.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/sassline-base\/_layouts.scss",
-		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_layouts.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/_scss\/sassline-base\/_mixins.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/sassline-base\/_mixins.scss",
-		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_mixins.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/_scss\/sassline-base\/_modular-scale.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/sassline-base\/_modular-scale.scss",
-		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_modular-scale.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/_scss\/sassline-base\/_reset.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/sassline-base\/_reset.scss",
-		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_reset.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/_scss\/sassline-base\/_typography.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/sassline-base\/_typography.scss",
-		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_typography.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/assets\/_scss\/sassline-base\/_variables.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/_scss\/sassline-base\/_variables.scss",
-		"outputAbbreviatedPath": "\/assets\/_scss\/css\/_variables.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/assets\/_scss\/style.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -251,6 +91,150 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/_scss\/style.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/vendor\/ideal-image-slider.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/vendor\/ideal-image-slider.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/css\/ideal-image-slider.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/vendor\/normalize.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/vendor\/normalize.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/css\/normalize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/vendor\/sassline\/_sassline-base.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/_sassline-base.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/vendor\/css\/_sassline-base.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/vendor\/sassline\/sassline-base\/_layouts.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/sassline-base\/_layouts.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/css\/_layouts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/vendor\/sassline\/sassline-base\/_mixins.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/sassline-base\/_mixins.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/css\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/vendor\/sassline\/sassline-base\/_modular-scale.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/sassline-base\/_modular-scale.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/css\/_modular-scale.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/vendor\/sassline\/sassline-base\/_reset.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/sassline-base\/_reset.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/css\/_reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/vendor\/sassline\/sassline-base\/_typography.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/sassline-base\/_typography.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/css\/_typography.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/_scss\/vendor\/sassline\/sassline-base\/_variables.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/sassline-base\/_variables.scss",
+		"outputAbbreviatedPath": "\/assets\/_scss\/vendor\/sassline\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -361,6 +345,150 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/orig_scss\/_nav.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/orig_scss\/_nav.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/orig_scss\/_rest.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/orig_scss\/_rest.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_rest.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/orig_scss\/_typebase.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/orig_scss\/_typebase.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_typebase.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/orig_scss\/_variables.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/orig_scss\/_variables.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/_variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/orig_scss\/mixins\/_animations.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/orig_scss\/mixins\/_animations.scss",
+		"outputAbbreviatedPath": "\/assets\/orig_scss\/css\/_animations.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/orig_scss\/mixins\/_box-shadows.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/orig_scss\/mixins\/_box-shadows.scss",
+		"outputAbbreviatedPath": "\/assets\/orig_scss\/css\/_box-shadows.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/orig_scss\/mixins\/_links.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/orig_scss\/mixins\/_links.scss",
+		"outputAbbreviatedPath": "\/assets\/orig_scss\/css\/_links.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/orig_scss\/mixins\/_media-queries.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/orig_scss\/mixins\/_media-queries.scss",
+		"outputAbbreviatedPath": "\/assets\/orig_scss\/css\/_media-queries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/orig_scss\/style.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/orig_scss\/style.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/content\/1-projects\/01-residential\/01-west-indies-courtyard-house\/West-Indies-Courtyard-House-01.jpg": {
 		"fileType": 16384,
@@ -5990,7 +6118,7 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/panel\/assets\/scss\/components\/_autocomplete.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6006,7 +6134,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_avatar.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6022,7 +6150,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_body.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6038,7 +6166,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_breadcrumb.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6054,7 +6182,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_btn.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6070,7 +6198,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_counter.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6086,7 +6214,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_dashboard.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6102,7 +6230,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_dragula.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6118,7 +6246,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_dropdown.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6134,7 +6262,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_dropload.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6150,7 +6278,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_dropzone.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6166,7 +6294,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_file.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6182,7 +6310,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_files.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6198,7 +6326,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_fileselector.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6214,7 +6342,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_fileview.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6230,7 +6358,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_fontawesome.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6246,7 +6374,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_fonts.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6262,7 +6390,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_form.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6278,7 +6406,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_grid.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6294,7 +6422,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_headlines.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6310,7 +6438,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_hgroup.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6326,7 +6454,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_icon.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6342,7 +6470,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_instruction.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6358,7 +6486,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_items.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6374,7 +6502,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_languages.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6390,7 +6518,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_main.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6406,7 +6534,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_message.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6422,7 +6550,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_misc.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6438,7 +6566,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_modal.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6454,7 +6582,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_nav.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6470,7 +6598,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_nprogress.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6486,7 +6614,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_pagination.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6502,7 +6630,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_pikaday.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6518,7 +6646,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_reset.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6534,7 +6662,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_search.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6550,7 +6678,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_shiv.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6566,7 +6694,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_sidebar.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6582,7 +6710,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_subpages.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6598,7 +6726,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_tags.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6614,7 +6742,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_text.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6630,7 +6758,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_topbar.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6646,7 +6774,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/components\/_typography.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6662,7 +6790,7 @@
 		"useLibsass": 0
 		},
 	"\/panel\/assets\/scss\/panel.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -6995,15 +7123,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/site\/snippets\/contact.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/site\/snippets\/contact.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/site\/snippets\/expanding-grid-projects.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7123,6 +7242,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/01-0c1cfa8437313715be26f5e4de29d44b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17652,
+		"inputAbbreviatedPath": "\/thumbs\/01-0c1cfa8437313715be26f5e4de29d44b.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/01-0c1cfa8437313715be26f5e4de29d44b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/01-38b06c3844198cbd06da1186ace54e2f.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16833,
+		"inputAbbreviatedPath": "\/thumbs\/01-38b06c3844198cbd06da1186ace54e2f.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/01-38b06c3844198cbd06da1186ace54e2f.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/01-8b8ecc995dcba55db6667580a2e4407f.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7200,6 +7341,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-e41dddf055af05e4d37743aceef7737f.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15915,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-e41dddf055af05e4d37743aceef7737f.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-e41dddf055af05e4d37743aceef7737f.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-f918daa54db3d768ee573a8a54a40fd5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16369,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-f918daa54db3d768ee573a8a54a40fd5.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-and-cats-home-new-cattery-01-f918daa54db3d768ee573a8a54a40fd5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-dogs-home-head-offices-01-05770c2055d78f530b854ba52e829420.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11913,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-05770c2055d78f530b854ba52e829420.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-05770c2055d78f530b854ba52e829420.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/battersea-dogs-home-head-offices-01-343da125145b5f85bd9006b2a9d6e167.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7222,6 +7396,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/battersea-dogs-home-head-offices-01-ac9caccb11738a036d77c51a5ad945c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12491,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-ac9caccb11738a036d77c51a5ad945c1.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-ac9caccb11738a036d77c51a5ad945c1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/battersea-dogs-home-head-offices-01-bd702050dac66471ef90b0a732a5ffc9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7240,6 +7425,17 @@
 		"initialSize": 28761,
 		"inputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-de4ec70dfd38c9fdb8e73a73032e89be.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/battersea-dogs-home-head-offices-01-de4ec70dfd38c9fdb8e73a73032e89be.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-old-windsor-clinic-01-258bd4bb157d55a8a392019e075435fe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20702,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-258bd4bb157d55a8a392019e075435fe.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-258bd4bb157d55a8a392019e075435fe.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7277,6 +7473,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/battersea-old-windsor-clinic-01-6dca6a9cbcd6cde586e9171557ce4e8a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20778,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-6dca6a9cbcd6cde586e9171557ce4e8a.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-6dca6a9cbcd6cde586e9171557ce4e8a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/battersea-old-windsor-clinic-01-d738a9b522ff504570b934c3bf5a7b44.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7284,6 +7491,17 @@
 		"initialSize": 36279,
 		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-d738a9b522ff504570b934c3bf5a7b44.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-clinic-01-d738a9b522ff504570b934c3bf5a7b44.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-old-windsor-kennels-01-36fe263568c90a54c3540eb56b7cf0a9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16175,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-36fe263568c90a54c3540eb56b7cf0a9.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-36fe263568c90a54c3540eb56b7cf0a9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7306,6 +7524,17 @@
 		"initialSize": 18770,
 		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-5e92037d699fe194c3d5bd82e783a60c.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-5e92037d699fe194c3d5bd82e783a60c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-old-windsor-kennels-01-a6887c549e0ed8ecf2252db822c5f67f.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15676,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-a6887c549e0ed8ecf2252db822c5f67f.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-kennels-01-a6887c549e0ed8ecf2252db822c5f67f.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7365,6 +7594,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/battersea-old-windsor-new-cattery-01-b6d4d89a4f4091793de26ae506ecd393.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25951,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-b6d4d89a4f4091793de26ae506ecd393.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-b6d4d89a4f4091793de26ae506ecd393.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/battersea-old-windsor-new-cattery-01-c0050aed9c906b2acfee5ce44abcf044.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7372,6 +7612,39 @@
 		"initialSize": 53709,
 		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-c0050aed9c906b2acfee5ce44abcf044.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-c0050aed9c906b2acfee5ce44abcf044.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-old-windsor-new-cattery-01-c84af29d0784bfe3ddd87881411f8065.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26738,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-c84af29d0784bfe3ddd87881411f8065.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-new-cattery-01-c84af29d0784bfe3ddd87881411f8065.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-old-windsor-reception-building-01-03d87c05d308bb51ea9c9219c598b997.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19635,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-reception-building-01-03d87c05d308bb51ea9c9219c598b997.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-reception-building-01-03d87c05d308bb51ea9c9219c598b997.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/battersea-old-windsor-reception-building-01-59bbb6db027f703a86ab746697e0aba2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20098,
+		"inputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-reception-building-01-59bbb6db027f703a86ab746697e0aba2.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/battersea-old-windsor-reception-building-01-59bbb6db027f703a86ab746697e0aba2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7420,6 +7693,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/bbc-listening-project-water-pod-01-17850821f690da6cc4a33e13d0106aba.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11334,
+		"inputAbbreviatedPath": "\/thumbs\/bbc-listening-project-water-pod-01-17850821f690da6cc4a33e13d0106aba.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bbc-listening-project-water-pod-01-17850821f690da6cc4a33e13d0106aba.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/bbc-listening-project-water-pod-01-647bc7d9ef6e89304d6551ef13823888.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7453,6 +7737,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/bbc-listening-project-water-pod-01-f4752863c7e584797d9767344bfa941d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10905,
+		"inputAbbreviatedPath": "\/thumbs\/bbc-listening-project-water-pod-01-f4752863c7e584797d9767344bfa941d.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/bbc-listening-project-water-pod-01-f4752863c7e584797d9767344bfa941d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/bbc-listening-project-water-pod-01-fc84cc51f973244e96d93de26d22ab41.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7482,6 +7777,28 @@
 		"initialSize": 37709,
 		"inputAbbreviatedPath": "\/thumbs\/cfk_1278-5662fe15871912a309f9040bf8e68449.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/cfk_1278-5662fe15871912a309f9040bf8e68449.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/house-in-west-london-conservation-area-01-03c266c77e500d75e579271af5dd8c20.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15728,
+		"inputAbbreviatedPath": "\/thumbs\/house-in-west-london-conservation-area-01-03c266c77e500d75e579271af5dd8c20.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/house-in-west-london-conservation-area-01-03c266c77e500d75e579271af5dd8c20.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/house-in-west-london-conservation-area-01-618a40fbd521f064916e779bd32cb4d9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16222,
+		"inputAbbreviatedPath": "\/thumbs\/house-in-west-london-conservation-area-01-618a40fbd521f064916e779bd32cb4d9.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/house-in-west-london-conservation-area-01-618a40fbd521f064916e779bd32cb4d9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7552,6 +7869,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/lutyens-inspired-new-house-in-richmond-01-a82607896c4f4d355789e1dffa69c550.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23638,
+		"inputAbbreviatedPath": "\/thumbs\/lutyens-inspired-new-house-in-richmond-01-a82607896c4f4d355789e1dffa69c550.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/lutyens-inspired-new-house-in-richmond-01-a82607896c4f4d355789e1dffa69c550.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/lutyens-inspired-new-house-in-richmond-01-a8560b312e635c320dfd8d5cb0455333.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22887,
+		"inputAbbreviatedPath": "\/thumbs\/lutyens-inspired-new-house-in-richmond-01-a8560b312e635c320dfd8d5cb0455333.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/lutyens-inspired-new-house-in-richmond-01-a8560b312e635c320dfd8d5cb0455333.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/lutyens-inspired-new-house-in-richmond-01-ac33a7fc7cef29cd3d1269b11c0d7514.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7596,6 +7935,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/merchant-bank-in-central-london-01-43dd73f9e834c219a429f2b85b1b19b1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20678,
+		"inputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-43dd73f9e834c219a429f2b85b1b19b1.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-43dd73f9e834c219a429f2b85b1b19b1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/merchant-bank-in-central-london-01-6ca12dbc64ea8278008b2a1f612ed1f2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7618,6 +7968,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/merchant-bank-in-central-london-01-83dd34273d4e236b12c908b7e9949cfa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20303,
+		"inputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-83dd34273d4e236b12c908b7e9949cfa.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/merchant-bank-in-central-london-01-83dd34273d4e236b12c908b7e9949cfa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/new-home-tunbridge-wells-01-0683ed1638eedd28b596a2d19cdebd13.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7629,6 +7990,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/new-home-tunbridge-wells-01-2e8a75fe76d7aacbce922d2eb4c35741.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22211,
+		"inputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-2e8a75fe76d7aacbce922d2eb4c35741.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-2e8a75fe76d7aacbce922d2eb4c35741.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/new-home-tunbridge-wells-01-8c3f9e28fa4cb837f905a56c5d2eab31.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7636,6 +8008,17 @@
 		"initialSize": 16384,
 		"inputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-8c3f9e28fa4cb837f905a56c5d2eab31.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-8c3f9e28fa4cb837f905a56c5d2eab31.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/new-home-tunbridge-wells-01-a42f258446234593878eaa9ad461c7da.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22520,
+		"inputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-a42f258446234593878eaa9ad461c7da.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-a42f258446234593878eaa9ad461c7da.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7658,6 +8041,28 @@
 		"initialSize": 33596,
 		"inputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-fc28eee032c2a91ac4e5d75036fa328a.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/new-home-tunbridge-wells-01-fc28eee032c2a91ac4e5d75036fa328a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/new-house-in-somerset-01-08fd2130038363651070c652edfc068c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12361,
+		"inputAbbreviatedPath": "\/thumbs\/new-house-in-somerset-01-08fd2130038363651070c652edfc068c.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/new-house-in-somerset-01-08fd2130038363651070c652edfc068c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/new-house-in-somerset-01-21ebe741fb0686215be553fa15a69eb6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11970,
+		"inputAbbreviatedPath": "\/thumbs\/new-house-in-somerset-01-21ebe741fb0686215be553fa15a69eb6.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/new-house-in-somerset-01-21ebe741fb0686215be553fa15a69eb6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7706,6 +8111,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/private-bank-in-central-london-01-38b1796115de6500acfb8efb146ff0ba.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11242,
+		"inputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-38b1796115de6500acfb8efb146ff0ba.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-38b1796115de6500acfb8efb146ff0ba.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/private-bank-in-central-london-01-425df728afb2d146ebda8fca751057e9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7713,6 +8129,17 @@
 		"initialSize": 28185,
 		"inputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-425df728afb2d146ebda8fca751057e9.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-425df728afb2d146ebda8fca751057e9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/private-bank-in-central-london-01-62761eaa08fc0df720d76bc77534616a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11673,
+		"inputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-62761eaa08fc0df720d76bc77534616a.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/private-bank-in-central-london-01-62761eaa08fc0df720d76bc77534616a.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7772,6 +8199,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/rural-planning-project-01-432299e3f4c3a4285e83a628b1ce2b5a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17903,
+		"inputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-432299e3f4c3a4285e83a628b1ce2b5a.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-432299e3f4c3a4285e83a628b1ce2b5a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/rural-planning-project-01-8b5b10a1569222760baf4b613a5facae.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17333,
+		"inputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-8b5b10a1569222760baf4b613a5facae.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/rural-planning-project-01-8b5b10a1569222760baf4b613a5facae.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/rural-planning-project-01-8eb171a1a90cda98c01714ac072704d2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7816,6 +8265,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/south-irel-1-b6c137a2e88e499effa6939c440fa011.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16240,
+		"inputAbbreviatedPath": "\/thumbs\/south-irel-1-b6c137a2e88e499effa6939c440fa011.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/south-irel-1-b6c137a2e88e499effa6939c440fa011.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/south-irel-1-d13b993f4e4231134d111ebfd897931a.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7823,6 +8283,17 @@
 		"initialSize": 20731,
 		"inputAbbreviatedPath": "\/thumbs\/south-irel-1-d13b993f4e4231134d111ebfd897931a.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/south-irel-1-d13b993f4e4231134d111ebfd897931a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/south-irel-1-e27a6cff4e23e4dfccd77489ae0e803d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16117,
+		"inputAbbreviatedPath": "\/thumbs\/south-irel-1-e27a6cff4e23e4dfccd77489ae0e803d.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/south-irel-1-e27a6cff4e23e4dfccd77489ae0e803d.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7860,6 +8331,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/spitfire-competition-01-2f672cfc1a57676beabee3869d49b40e.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7131,
+		"inputAbbreviatedPath": "\/thumbs\/spitfire-competition-01-2f672cfc1a57676beabee3869d49b40e.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/spitfire-competition-01-2f672cfc1a57676beabee3869d49b40e.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/spitfire-competition-01-5ccf0c32a60a080e456af1fe406b96d4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7413,
+		"inputAbbreviatedPath": "\/thumbs\/spitfire-competition-01-5ccf0c32a60a080e456af1fe406b96d4.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/spitfire-competition-01-5ccf0c32a60a080e456af1fe406b96d4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/spitfire-competition-01-ac3d39c4001f4a2cd50a3c22222288a3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7893,6 +8386,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/villa-in-the-west-indies-01-25e3a586c58a7118ab7a14f9c591996f.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22392,
+		"inputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-25e3a586c58a7118ab7a14f9c591996f.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-25e3a586c58a7118ab7a14f9c591996f.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/villa-in-the-west-indies-01-3e74dfe62a95e4ebfc911cfc319606a6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23506,
+		"inputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-3e74dfe62a95e4ebfc911cfc319606a6.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-3e74dfe62a95e4ebfc911cfc319606a6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/villa-in-the-west-indies-01-788b830530c168b3483a25eb2487fb12.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7922,6 +8437,17 @@
 		"initialSize": 61513,
 		"inputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-f2d6f2ebb344b323709963574b37f3be.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/villa-in-the-west-indies-01-f2d6f2ebb344b323709963574b37f3be.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/west-indies-courtyard-house-01-29a7bbf30328a1787ed9466e166769a9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16510,
+		"inputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-29a7bbf30328a1787ed9466e166769a9.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-29a7bbf30328a1787ed9466e166769a9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7970,6 +8496,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/west-indies-courtyard-house-01-cd3af0f6802da204f21e15dc353e9dd0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16151,
+		"inputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-cd3af0f6802da204f21e15dc353e9dd0.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/west-indies-courtyard-house-01-cd3af0f6802da204f21e15dc353e9dd0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/west-london-office-01-8acf101340bacd61656e914256e6dcad.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8003,6 +8540,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/west-london-office-01-c6d7caa2f995b9bad11f9f369d9f498e.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18334,
+		"inputAbbreviatedPath": "\/thumbs\/west-london-office-01-c6d7caa2f995b9bad11f9f369d9f498e.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/west-london-office-01-c6d7caa2f995b9bad11f9f369d9f498e.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/west-london-office-01-cd2a982f1af43c8470845d6616903981.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8010,6 +8558,17 @@
 		"initialSize": 47521,
 		"inputAbbreviatedPath": "\/thumbs\/west-london-office-01-cd2a982f1af43c8470845d6616903981.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/west-london-office-01-cd2a982f1af43c8470845d6616903981.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/west-london-office-01-dd8966b6b114d4d714df325137ffab1a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17884,
+		"inputAbbreviatedPath": "\/thumbs\/west-london-office-01-dd8966b6b114d4d714df325137ffab1a.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/west-london-office-01-dd8966b6b114d4d714df325137ffab1a.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8047,6 +8606,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/west-london-pied-a-terre-01-a0da1271b950bc67fb771bc04d369407.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11521,
+		"inputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-a0da1271b950bc67fb771bc04d369407.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-a0da1271b950bc67fb771bc04d369407.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/west-london-pied-a-terre-01-ad5e9faffd2c39b84c26abc984f0428f.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8054,6 +8624,17 @@
 		"initialSize": 22373,
 		"inputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-ad5e9faffd2c39b84c26abc984f0428f.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-ad5e9faffd2c39b84c26abc984f0428f.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/west-london-pied-a-terre-01-dd88cd102df357375736cecba44696e8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11068,
+		"inputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-dd88cd102df357375736cecba44696e8.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/west-london-pied-a-terre-01-dd88cd102df357375736cecba44696e8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8091,6 +8672,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/thumbs\/wiltshire-barn-01-9ff8b2abb58d8f5fc4108e6266a3c05d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23638,
+		"inputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-9ff8b2abb58d8f5fc4108e6266a3c05d.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-9ff8b2abb58d8f5fc4108e6266a3c05d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/wiltshire-barn-01-d9c95de57c327b1f3927dd502ac56e3f.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24292,
+		"inputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-d9c95de57c327b1f3927dd502ac56e3f.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-d9c95de57c327b1f3927dd502ac56e3f.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/thumbs\/wiltshire-barn-01-f9cdece64017e0a16ac772dd230f9cde.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8098,6 +8701,17 @@
 		"initialSize": 43412,
 		"inputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-f9cdece64017e0a16ac772dd230f9cde.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/wiltshire-barn-01-f9cdece64017e0a16ac772dd230f9cde.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/wiltshire-coach-house-01-1f805b3efc2928c1bc0dab162dbd7906.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12220,
+		"inputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-1f805b3efc2928c1bc0dab162dbd7906.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-1f805b3efc2928c1bc0dab162dbd7906.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8142,6 +8756,17 @@
 		"initialSize": 11848,
 		"inputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-ed4413ecf5e274aaa94b5282b8d6013b.jpg",
 		"outputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-ed4413ecf5e274aaa94b5282b8d6013b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/wiltshire-coach-house-01-fc71814ed118cb637553469924162425.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12318,
+		"inputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-fc71814ed118cb637553469924162425.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/wiltshire-coach-house-01-fc71814ed118cb637553469924162425.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8749,7 +9374,7 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 1,

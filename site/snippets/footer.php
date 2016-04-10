@@ -1,56 +1,28 @@
+<footer>
+<!-- address -->
+  <div id="" class="vcard">
+   <div class="adr">
+    <div class="street-address">Unit 5, The Powerhouse, 70 Chiswick High Road</div>
+    <span class="locality">London</span>,
+    <span class="postal-code">W4 1SY</span>
+   </div>
+    <a class="email" href="mailto:ck@charlesknowles.com">ck@charlesknowles.com</a>
+   <div class="tel"><a href="tel:02087428322">02087428322</a></div>
+  </div>
+  <!-- logos -->
+  <div class="logo">
+    <img src="<?php echo url('assets/images/chartered-practice.svg') ?>" alt="RIBA Chartered Practice Logo" />
+  </div>
+</footer>
+<!-- end -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>
-var elem = document.querySelector('.grid');
-var msnry = new Masonry( elem, {
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: 500,
-});
-
-// element argument can be a selector string
-//   for an individual element
-var msnry = new Masonry( '.grid', {
-  // options
-    gutter: 45,
-    fitWidth: true
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function(){
-    $('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-
-        var target = this.hash;
-        var $target = $(target);
-
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing');
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('a').click(function(){
+        $('a').removeClass("active");
+        $(this).addClass("active");
+      });
     });
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function(){
-  var  mainNav = $(".main-nav");
-      navStick = "nav-stick";
-      headerHeight = $('header').height();
-
-  $(window).scroll(function() {
-    if( $(this).scrollTop() > (headerHeight / 1.333 )) {
-      mainNav.addClass(navStick);
-    } else {
-      mainNav.removeClass(navStick);
-    }
-  });
-});
-</script>
-<script>
-$(document).ready(function(){
-  $('a').click(function(){
-    $('a').removeClass("active");
-    $(this).addClass("active");
-});
-});
-</script>
+  </script>
 </body>
 </html>
