@@ -15,14 +15,16 @@
   </div>
 </footer>
 <!-- end -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('a').click(function(){
-        $('a').removeClass("active");
-        $(this).addClass("active");
-      });
-    });
+
+  <script src="<?php echo url('assets/js/ideal-image-slider.min.js') ?>"></script>
+  <!-- endbuild -->
+  <script>
+    var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    interval: 4000,
+    effect: 'fade',
+  });
+  slider.start();
   </script>
 </body>
 </html>

@@ -41,6 +41,25 @@
   }
 }
 
+.project {
+  margin-bottom: 6em;
+  @include outer-container;
+  .project-content {
+    @include span-columns(9);
+    margin-top: 2em;
+  }
+  .project-info {
+    @include span-columns(3);
+    @include omega();
+    font-size: 0.889em;
+    color: $color-text-meta;
+    margin-top: 4.4rem;
+    // text-align: right;
+  }
+}
 
-
-
+.img-cell{
+  height: 50vh;
+  width: auto;
+  margin-right: 10px;
+}

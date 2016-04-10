@@ -1,5 +1,5 @@
 header {
-  padding: 2em 0;
+  padding: 4em 0;
   @include align-items(center);
   @include display(flex);
   @include flex-direction(row);
@@ -43,7 +43,7 @@ header {
 }
 
 .ckd-logo {
-  max-height: 4rem;
+  max-height: 5rem;
   width: auto;
   margin-right: 2em;
 }
