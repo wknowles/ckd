@@ -1,0 +1,49 @@
+header {
+  padding: 4em 0;
+  @include align-items(center);
+  @include display(flex);
+  @include flex-direction(row);
+  @include justify-content(space-between);
+  h1 {
+      margin-right: auto;
+    a {
+      color: $color-text-base;
+      &:hover {
+        text-decoration: none;
+        }
+    }
+  }
+
+  nav {
+    ul{
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+      padding: 0 1em;
+      &:last-child {
+        padding: 0 0 0 1em;
+      }
+      a {
+        color: $color-text-base;
+        @include transition(color 0.3s ease-in-out);
+        border-bottom: .1em solid $color-text-alt;
+        padding-bottom: .1em;
+      &:hover {
+        color: $color-text-alt;
+        text-decoration: none;
+        }
+      &.active {
+        color: $color-text-alt;
+        text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.ckd-logo {
+  max-height: 5rem;
+  width: auto;
+  margin-right: 2em;
+}

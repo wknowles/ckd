@@ -11,11 +11,8 @@
   <?php echo css('assets/css/style.css') ?>
 </head>
 <body>
-<nav class="nav-stick">
-  <h2 class="sticky-title"><a href="<?php echo $site->url() ?>">Charles Knowles Design</a></h2>
-    <ul>
-      <li><a class="active" href="<?php echo $site->url() ?>#projects">Projects</a></li>
-      <li><a href="<?php echo $site->url() ?>#about">About</a></li>
-      <li><a href="<?php echo $site->url() ?>#contact">Contact</a></li>
-    </ul>
-</nav>
+<header>
+  <img class="ckd-logo" src="<?php echo url('assets/images/ckd-logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+    <h1><a href="/">Charles Knowles Design : Architects</a></h1>
+    <?php snippet('nav') ?>
+</header>

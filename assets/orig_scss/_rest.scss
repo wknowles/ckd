@@ -1,0 +1,189 @@
+
+/* Site
+-------------------------------------------------- */
+html {
+  background-color: $color-bg-base;
+  color: $color-text-base;
+  }
+
+.logo {
+  height: 30vh;
+}
+
+header {
+  text-align: center;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: $color-bg-base;
+}
+
+.sub-heading{
+  @extend .heading;
+  padding-bottom: 0.8rem;
+  font-weight: 300;
+}
+
+/* -- Projects --------------------------------------------------------------------------------------------------------------- */
+
+.projects {
+  padding-top: 6.8rem;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+.grid-item {
+  width: auto;
+  height: auto;
+  margin-bottom: 45px;
+  @include box-shadow(1);
+  @include animation(fadeIn 0.65s);
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  transition: all 250ms;
+  &:hover {
+      @include box_shadow(2);
+  }
+  img{
+    display: block;
+  }
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* -- Individual Project --------------------------------------------------------------------------------------------------------------- */
+
+.project {
+  padding: 6rem 1rem 1rem 1rem;
+    a{
+      @include link-underline($color-bg-base, $color-text-base);
+    }
+}
+
+.project-header{
+}
+
+.img-adjust {
+  height: 50vh;
+  width: auto;
+}
+
+.project-content {
+  margin: 0 auto;
+  max-width: 48rem;
+  padding: 0 0 2rem;
+
+}
+
+.project-content h1{
+  font-size: 2.4rem;
+  color: $color-text-alt;
+}
+
+.project-content p{
+  line-height: 1.6rem;
+}
+
+.project-return {
+  line-height: 5rem;
+}
+
+/* -- About --------------------------------------------------------------------------------------------------------------- */
+
+.about{
+  padding: 6.8rem 0;
+  background: $color-bg-highlight;
+}
+
+.about-content {
+  @include breakpoint(medium-screen){ display: flex;}
+}
+
+.aboutLeft{
+  @include breakpoint(medium-screen){ padding: 0 1rem; border-right: 1px dotted $color-text-alt; }
+}
+
+.aboutRight{
+  @include breakpoint(medium-screen){padding: 0 2rem;}
+}
+
+.floatright {
+  float: right;
+}
+
+.about-content {
+  padding: 20px;
+  a{
+    @include link-underline($color-bg-highlight, $color-text-base);
+  }
+}
+
+/* -- Contact --------------------------------------------------------------------------------------------------------------- */
+
+.contact{
+  height: 100vh;
+  background: url(../images/office.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: $color-bg-base;
+}
+
+.address{
+  text-align: center;
+}
+
+.address-text{
+ padding: 20px;
+ font-weight: 300;
+}
+
+.address h3{
+  margin-bottom: 0.6em;
+}
+
+.address a {
+  color: $color-bg-base;
+  text-decoration: none;
+}
+
+hr {
+     margin-top: 20px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px solid $color-bg-base;
+}
+
+a[href^="tel:"]:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+
+/* -- Gallery --------------------------------------------------------------------------------------------------------------- */
+
+.gallery-cell{
+  margin-right: 10px;
+}
+
+.imgcontent {
+    margin: 0 auto;
+    padding: 0 2em;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}

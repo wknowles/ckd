@@ -1,0 +1,38 @@
+footer {
+  @include align-items(flex-end);
+  @include display(flex);
+  @include flex-direction(row);
+  @include justify-content(space-between);
+  margin-bottom: 4em;
+  a {
+      color: $color-text-base;
+      // border-bottom: .1em solid $color-text-alt;
+      // padding-bottom: .1em;
+      &:hover {
+        text-decoration: none;
+        }
+    }
+}
+
+.vcard {
+  @include span-columns(10);
+}
+
+.adr {
+  margin-bottom: 0.5rem;
+}
+
+a[href^="tel:"]:before {
+  content: "tel:";
+  margin-right: 0.5em;
+}
+
+a[href^="mailto:"]:before {
+  content: "email:";
+  margin-right: 0.5em;
+}
+
+.logo{
+  @include span-columns(2);
+  float:right;
+}
