@@ -3,7 +3,9 @@ footer {
   @include display(flex);
   @include flex-direction(row);
   @include justify-content(space-between);
-  margin-bottom: 4em;
+  margin: 6rem 0 4rem 0;
+  padding-top: 3rem;
+  border-top: 1px solid $color-text-meta;
   a {
       color: $color-text-base;
       // border-bottom: .1em solid $color-text-alt;

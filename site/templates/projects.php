@@ -1,4 +1,3 @@
 <?php snippet('header') ?>
-<?php snippet('projects') ?>
-<hr>
+  <?php snippet('projects') ?>
 <?php snippet('footer'); ?>

@@ -2,9 +2,8 @@
 /site/accounts
 /assets/avatars
 **/.sass-cache
-**/.sass-cache/*
-/thumbs/*
+/thumbs
 /kirby
 /panel
 license.md
-config.codekit
+*.codekit

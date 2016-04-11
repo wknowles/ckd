@@ -2,7 +2,7 @@
   <ul>
     <?php foreach(page('projects')->grandChildren()->visible() as $project): ?>
       <li><a href="<?php echo $project->url() ?>" title="<?php echo $project->title()->html() ?>" >
-          <img src="<?php echo $project->images()->first()->crop(300, 223, 75)->url() ?>" alt="<?php echo $project->title()->html() ?>" width="223" height="300"></a>
+          <img src="<?php echo $project->images()->first()->crop(250, null, 75)->url() ?>" alt="<?php echo $project->title()->html() ?>" width="auto" height="auto"></a>
       </li>
     <?php endforeach ?>
   </ul>

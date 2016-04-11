@@ -29,15 +29,15 @@
     margin-bottom: 1.4em;
     @include span-columns(3);
     @include omega(4n);
-    // border: 1px blue solid;
+    border: 1px $color-text-alt solid;
     @include media($mobile) {
       @include span-columns(3);
-      // @include fill-parent;
+      @include fill-parent;
     }
   }
   img {
     display: block;
-    width: 100%;
+    //width: 100%;
   }
 }
 
@@ -47,6 +47,20 @@
   .project-content {
     @include span-columns(9);
     margin-top: 2em;
+    a {
+      @include transition(color 0.3s ease-in-out);
+      color: $color-text-base;
+      border-bottom: .1em solid $color-text-alt;
+      padding-bottom: .1em;
+      text-decoration: none;
+    &:hover {
+      color: $color-text-alt;
+      text-decoration: none;
+      }
+    }
+  }
+  .project-return{
+    font-size: 0.889em;
   }
   .project-info {
     @include span-columns(3);
@@ -55,6 +69,7 @@
     color: $color-text-meta;
     margin-top: 4.4rem;
     // text-align: right;
+    // img{float: right;}
   }
 }
 

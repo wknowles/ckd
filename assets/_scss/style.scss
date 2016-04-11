@@ -1,10 +1,17 @@
+/* Vendor Dependencies */
 @import "bourbon";
+$visual-grid: true;
 @import "neat";
+@import "vendor/normalize";
 
+/* Authored Dependencies */
 @import "partials/base";
+
+/* Sections */
 @import "partials/links";
 @import "partials/header";
 @import "partials/content";
 @import "partials/footer";
 
+/* Vendor Sections */
 @import "vendor/ideal-image-slider";
