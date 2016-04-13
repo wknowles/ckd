@@ -1,0 +1,22 @@
+{
+  "name": "charlesknowles.com",
+  "description": "ckd website",
+  "main": "index.js",
+  "authors": [
+    "william knowles"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/wknowles/ckd",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ideal-image-slider": "^1.5.1",
+    "retina.js": "^1.3.0"
+  }
+}
