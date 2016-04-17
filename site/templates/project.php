@@ -8,7 +8,6 @@
     </div>
     <div class="project-info">
       <p><?php echo kirbytextSans($page->info()) ?></p>
-      <img src="http://placehold.it/200x360">
     </div>
 </div>
 <?php snippet('footerProject'); ?>
