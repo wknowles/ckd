@@ -19,19 +19,6 @@ $color-text-meta: lighten(desaturate($color-text-base, 70), 45);
 //Media Queries
 $mobile: new-breakpoint(max-width 500px 3);
 
-// body {
-//   font-family: $base-font-family;
-//   font-size: $base-font-size;
-//   color: $color-text-base;
-//   // background: $color-bg-base;
-//   margin: 0 auto;
-//   max-width: 960px;
-// }
-
-// h1, h2 {
-//   font-size: $base-font-size * 1.125;
-//   font-weight: $semi-bold;
-// }
 
 html {font-size: 1em;}
 
@@ -39,13 +26,12 @@ body {
   //background-color: $color-bg-base;
   font-family: $base-font-family;
   font-weight: $regular;
-  //line-height: 1.45;
   line-height: $base-line-height;
   color: $color-text-base;
   @include outer-container;
 }
 
-p {margin-bottom: 1.3em;}
+p {margin-bottom: 1.3em; font-weight: $semi-light;}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;

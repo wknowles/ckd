@@ -2,7 +2,7 @@
 <!-- address -->
   <div id="" class="vcard">
    <div class="adr">
-    <div class="street-address">Unit 5, The Powerhouse, 70 Chiswick High Road</div>
+    <div class="street-address">Unit 5, The Power House, 70 Chiswick High Road</div>
     <span class="locality">London</span>,
     <span class="postal-code">W4 1SY</span>
    </div>
@@ -16,5 +16,14 @@
 </footer>
 <!-- end -->
 <script src="https://npmcdn.com/flickity@1.1/dist/flickity.pkgd.min.js"></script>
+<script>
+  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  // })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  // ga('create', 'UA-62475565-1', 'auto');
+  // ga('send', 'pageview');
+</script>
 </body>
 </html>
