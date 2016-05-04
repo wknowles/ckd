@@ -150,6 +150,17 @@ header nav li a.active {
   margin-right: 2em;
 }
 
+.slider {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 .about {
   max-width: 68em;
   margin-left: auto;
