@@ -3,9 +3,13 @@ footer {
   // @include align-items(flex-end);
   // @include flex-direction(row);
   // @include justify-content(space-between);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 240px;
+  width: 100%;
+  padding: 4rem 0;
   background-color: $color-bg-base;
-  margin: 6rem 0 4rem 0;
-  padding: 3rem 0 4rem 0;
   border-top: 1px solid $color-text-meta;
   a {
       color: $color-text-base;
@@ -41,5 +45,5 @@ a[href^="mailto:"]:before {
 
 .logo{
   @include span-columns(2);
-  float:right;
+  float: right;
 }

@@ -4,7 +4,7 @@
 
 .about {
   @include outer-container;
-  margin-bottom: 6em;
+  padding-bottom: 4em;
   .practice {  @include span-columns(7);margin-bottom: 2em;}
   .practice-sketch {  @include span-columns(5); @include omega();margin-bottom: 2em;}
   .charles {  @include span-columns(9);}
@@ -28,6 +28,7 @@
 
 .projects {
   @include outer-container;
+  padding-bottom: 4em;
   ul{
     margin: 0;
     padding: 0;
@@ -64,7 +65,7 @@
 }
 
 .project {
-  margin-bottom: 6em;
+  padding-bottom: 4em;
   @include outer-container;
   .project-content {
     @include span-columns(9);

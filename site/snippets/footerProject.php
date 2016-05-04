@@ -1,4 +1,5 @@
 <footer>
+<div class="footer-content">
 <!-- address -->
   <div id="" class="vcard">
    <div class="adr">
@@ -13,6 +14,7 @@
   <div class="logo">
     <img src="<?php echo url('assets/images/chartered-practice.svg') ?>" alt="RIBA Chartered Practice Logo" />
   </div>
+</div>
 </footer>
 <!-- end -->
 <script src="https://npmcdn.com/flickity@1.1/dist/flickity.pkgd.min.js"></script>

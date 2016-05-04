@@ -20,7 +20,7 @@ $color-text-meta: lighten(desaturate($color-text-base, 70), 45);
 $mobile: new-breakpoint(max-width 500px 3);
 
 
-html {font-size: 1em;}
+html {font-size: 1em; position: relative; min-height: 100%;}
 
 body {
   //background-color: $color-bg-base;
@@ -29,6 +29,7 @@ body {
   line-height: $base-line-height;
   color: $color-text-base;
   // @include outer-container;
+  margin: 0 0 240px; /* bottom = footer height */
 }
 
 p {margin-bottom: 1.3em; font-weight: $semi-light;}
