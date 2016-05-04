@@ -28,7 +28,7 @@ body {
   font-weight: $regular;
   line-height: $base-line-height;
   color: $color-text-base;
-  @include outer-container;
+  // @include outer-container;
 }
 
 p {margin-bottom: 1.3em; font-weight: $semi-light;}
