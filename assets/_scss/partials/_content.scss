@@ -5,12 +5,12 @@
 .about {
   @include outer-container;
   padding-bottom: 4em;
-  .practice {  @include span-columns(7);margin-bottom: 2em;}
-  .practice-sketch {  @include span-columns(5); @include omega();margin-bottom: 2em;}
+  .practice {  @include span-columns(7);margin-bottom: 2em; }
+  .practice-sketch {  @include span-columns(5); @include omega();margin-bottom: 2em; }
   .charles {  @include span-columns(9);}
-  .charles-img {  @include span-columns(3); @include omega();}
+  .charles-img {  @include span-columns(3); @include omega(); }
   img {
-    margin-top: 1em;
+    margin-top: 4em;
     display: block;
     width: 100%;
   }

@@ -12,7 +12,8 @@ Text:
       <p>We are passionate about harnessing the qualities of natural light, fresh air, views and sunshine to bring joy to all aspects of our buildings as well as to the people and creatures who inhabit them.</p>
     </div>
     <div class="practice-sketch">
-      <img src="http://placehold.it/400x360">
+      (image: practice-text.jpg)
+      <!--  <img src="http://placehold.it/400x360"> -->
     </div>
     <div class="charles">
     <h2>Charles</h2>
