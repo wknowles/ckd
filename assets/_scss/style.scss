@@ -4,6 +4,9 @@
 @import "neat";
 @import "vendor/normalize";
 
+/* Mixins */
+@import "mixins/box-shadows";
+
 /* Authored Dependencies */
 @import "partials/base";
 

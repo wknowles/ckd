@@ -4,7 +4,9 @@ header {
   @include display(flex);
   @include flex-direction(row);
   @include justify-content(space-between);
-  padding: 4em 0;
+  padding: 4em 0 2rem 0;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid $color-bg-highlight;
   h1 {
       margin: 0;
       margin-right: auto;

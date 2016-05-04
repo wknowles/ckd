@@ -11,6 +11,9 @@ fields:
   year:
     label: Year
     type:  text
+  info:
+    label: Project Meta
+    type:  text
   text:
     label: Text
     type:  textarea

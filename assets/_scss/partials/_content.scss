@@ -1,5 +1,10 @@
-.slider {
+.slider-container {
   @include outer-container;
+  padding-bottom: 6rem;
+}
+
+.slider {
+  @include box-shadow(2);
 }
 
 .about {
@@ -10,6 +15,7 @@
   .charles {  @include span-columns(9);}
   .charles-img {  @include span-columns(3); @include omega(); }
   img {
+    @include box-shadow(2);
     margin-top: 4em;
     display: block;
     width: 100%;
@@ -33,42 +39,38 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;}
     li {
       margin-bottom: 1.4em;
       list-style-type: none;
-      // @include span-columns(3);
-      // @include omega(4n);
-      // border: 1px $color-text-alt solid;
-      // @include media($mobile) {
-      //   @include span-columns(3);
-      //   @include fill-parent;
-      // }
     }
   img {
     flex: 1 1 0;
     display: block;
-    //width: 100%;
+    @include box-shadow(1);
   }
 }
 
-.grid {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+// .grid {
+//   display: flex;
+//   justify-content: space-between;
+//   flex-wrap: wrap;
+// }
 
-.grid-item {
-   margin: 1em;
-   flex: 1 1 0;
-}
+// .grid-item {
+//    margin: 1em;
+//    flex: 1 1 0;
+// }
 
 .project {
   padding-bottom: 4em;
   @include outer-container;
   .project-content {
     @include span-columns(9);
+      @include media($tablet) {
+        @include span-columns(4);
+      }
     margin-top: 2em;
     a {
       @include transition(color 0.3s ease-in-out);
@@ -97,7 +99,7 @@
 }
 
 .img-cell{
-  height: 60vh;
+  height: 50vh;
   max-height: 600px;
   width: auto;
   margin-right: 10px;

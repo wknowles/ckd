@@ -17,7 +17,6 @@
 </div>
 </footer>
 <!-- end -->
-
   <script src="<?php echo url('assets/js/ideal-image-slider.min.js') ?>"></script>
   <!-- endbuild -->
   <script>
