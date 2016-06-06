@@ -12,7 +12,7 @@
   padding-bottom: 4em;
   .practice {  @include span-columns(7);margin-bottom: 2em; }
   .practice-sketch {  @include span-columns(5); @include omega();margin-bottom: 2em; }
-  .charles {  @include span-columns(9);}
+  .charles {  @include span-columns(9); }
   .charles-img {  @include span-columns(3); @include omega(); }
   img {
     @include box-shadow(2);
