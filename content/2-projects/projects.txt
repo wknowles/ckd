@@ -2,4 +2,4 @@ Title: Projects
 
 ----
 
-Text: Some Recent Projects:
+Text: 

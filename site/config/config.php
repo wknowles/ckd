@@ -30,7 +30,7 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 */
 
 // Imagegaick Lib 
-c::set('thumbs.driver', 'im');
+//c::set('thumbs.driver', 'im');
 
 // Location of Imagemagick
-thumb::$defaults['bin'] = '/usr/local/bin/convert';
+//thumb::$defaults['bin'] = '/usr/local/bin/convert';

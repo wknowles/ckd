@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-  <a href="/"><img class="ckd-logo" src="<?php echo url('assets/images/ckd-logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-  <h1>Charles Knowles Design : Architects</a></h1>
+  <a href="/"><img class="ckd-logo" src="<?php echo url('assets/images/ckd-logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" /></a>
+  <h1>Charles Knowles Design : Architects</h1>
     <?php snippet('nav') ?>
 </header>
